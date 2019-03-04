@@ -91,8 +91,6 @@ QtWidgets/QMenu
 -
 QtWidgets/QMenuBar
 -
-QtWidgets/QPushButton
--
 QtWidgets/QStatusBar
 -
 QtWidgets/QToolBar
@@ -1202,10 +1200,6 @@ qmenu.h
 qmenubar.h
 /anaconda3/include/qt/QtWidgets/qmenubar.h
 
-/anaconda3/include/qt/QtWidgets/QPushButton
-qpushbutton.h
-/anaconda3/include/qt/QtWidgets/qpushbutton.h
-
 /anaconda3/include/qt/QtWidgets/QStatusBar
 qstatusbar.h
 /anaconda3/include/qt/QtWidgets/qstatusbar.h
@@ -1217,16 +1211,6 @@ qtoolbar.h
 /anaconda3/include/qt/QtWidgets/QWidget
 qwidget.h
 /anaconda3/include/qt/QtWidgets/qwidget.h
-
-/anaconda3/include/qt/QtWidgets/qabstractbutton.h
-QtWidgets/qtwidgetsglobal.h
--
-QtGui/qicon.h
--
-QtGui/qkeysequence.h
--
-QtWidgets/qwidget.h
--
 
 /anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
 QtWidgets/qtwidgetsglobal.h
@@ -1346,12 +1330,6 @@ QtWidgets/qaction.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qmenu.h
--
-
-/anaconda3/include/qt/QtWidgets/qpushbutton.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qabstractbutton.h
 -
 
 /anaconda3/include/qt/QtWidgets/qrubberband.h

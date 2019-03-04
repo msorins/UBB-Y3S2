@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1476</width>
-    <height>830</height>
+    <height>785</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -51,19 +51,6 @@
     </property>
     <property name="text">
      <string>secondImageLabel</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="processImagePushButton">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>730</y>
-      <width>1471</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Process Image</string>
     </property>
    </widget>
    <widget class="QComboBox" name="filterComboBox">

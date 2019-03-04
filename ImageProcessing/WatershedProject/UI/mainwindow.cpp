@@ -34,6 +34,9 @@ MainWindow::MainWindow(QWidget *parent) :
         imagesList.push_back( QString::fromStdString(image) );
     }
     this->ui->imageComboBox->addItems(imagesList);
+
+    // Process initial image & filter
+    processImage();
 }
 
 MainWindow::~MainWindow()
@@ -79,5 +82,6 @@ void MainWindow::processImage() {
 }
 
 void MainWindow::setupSignalsAndSlots() {
-    QObject::connect(this->ui->processImagePushButton, SIGNAL(clicked()), this, SLOT(processImage()));
+    QObject::connect(this->ui->imageComboBox, SIGNAL(activated(int)), this, SLOT(processImage()));
+    QObject::connect(this->ui->filterComboBox, SIGNAL(activated(int)), this, SLOT(processImage()));
 }

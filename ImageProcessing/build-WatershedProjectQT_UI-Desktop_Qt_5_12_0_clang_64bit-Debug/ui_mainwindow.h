@@ -18,7 +18,6 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
@@ -32,7 +31,6 @@ public:
     QFrame *_line;
     QLabel *firstImageLabel;
     QLabel *secondImageLabel;
-    QPushButton *processImagePushButton;
     QComboBox *filterComboBox;
     QComboBox *imageComboBox;
     QMenuBar *menuBar;
@@ -44,7 +42,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1476, 830);
+        MainWindow->resize(1476, 785);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         _line = new QFrame(centralWidget);
@@ -58,9 +56,6 @@ public:
         secondImageLabel = new QLabel(centralWidget);
         secondImageLabel->setObjectName(QString::fromUtf8("secondImageLabel"));
         secondImageLabel->setGeometry(QRect(760, 10, 701, 651));
-        processImagePushButton = new QPushButton(centralWidget);
-        processImagePushButton->setObjectName(QString::fromUtf8("processImagePushButton"));
-        processImagePushButton->setGeometry(QRect(0, 730, 1471, 41));
         filterComboBox = new QComboBox(centralWidget);
         filterComboBox->setObjectName(QString::fromUtf8("filterComboBox"));
         filterComboBox->setGeometry(QRect(750, 690, 711, 31));
@@ -93,7 +88,6 @@ public:
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         firstImageLabel->setText(QApplication::translate("MainWindow", "FirstImageLabel", nullptr));
         secondImageLabel->setText(QApplication::translate("MainWindow", "secondImageLabel", nullptr));
-        processImagePushButton->setText(QApplication::translate("MainWindow", "Process Image", nullptr));
         menuImage_Processing_Pipeline->setTitle(QApplication::translate("MainWindow", "Image Processing Pipeline", nullptr));
     } // retranslateUi
 

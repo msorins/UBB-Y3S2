@@ -121,11 +121,9 @@ CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWid
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/QMainWindow
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/QMenu
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/QMenuBar
-CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/QPushButton
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/QStatusBar
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/QToolBar
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/QWidget
-CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qabstractbutton.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qabstractslider.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qabstractspinbox.h
@@ -139,7 +137,6 @@ CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWid
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qmainwindow.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qmenu.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qmenubar.h
-CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qpushbutton.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qrubberband.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qsizepolicy.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtWidgets/qslider.h
