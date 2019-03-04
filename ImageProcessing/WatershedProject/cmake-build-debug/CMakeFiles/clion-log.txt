@@ -1,0 +1,15 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject
+-- Boost version: 1.67.0
+-- Found the following Boost libraries:
+--   regex
+--   date_time
+--   system
+--   filesystem
+--   thread
+--   graph
+--   program_options
+--   chrono
+--   atomic
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug

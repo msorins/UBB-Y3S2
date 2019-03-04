@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1476</width>
+    <height>830</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="Line" name="_line">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>20</y>
+      <width>20</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="firstImageLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>701</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FirstImageLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="secondImageLabel">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>10</y>
+      <width>701</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>secondImageLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="processImagePushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>730</y>
+      <width>1471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Process Image</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="filterComboBox">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>690</y>
+      <width>711</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="imageComboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>690</y>
+      <width>711</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1476</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuImage_Processing_Pipeline">
+    <property name="title">
+     <string>Image Processing Pipeline</string>
+    </property>
+   </widget>
+   <addaction name="menuImage_Processing_Pipeline"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

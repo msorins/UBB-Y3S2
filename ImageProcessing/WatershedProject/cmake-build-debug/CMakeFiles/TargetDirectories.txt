@@ -1,0 +1,4 @@
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir

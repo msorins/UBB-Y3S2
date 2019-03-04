@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WatershedProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\..\anaconda3\;CMake Files\..\..\..\..\..\..\anaconda3\lib\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WatershedProject">
+				<Option output="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add directory="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/anaconda3/include/qt"/>
+					<Add directory="/anaconda3/include/qt/QtCore"/>
+					<Add directory="/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/anaconda3/include/qt/QtGui"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/anaconda3/include/qt/QtCharts"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 WatershedProject"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WatershedProject/fast">
+				<Option output="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CHARTS_LIB"/>
+					<Add directory="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/anaconda3/include/qt"/>
+					<Add directory="/anaconda3/include/qt/QtCore"/>
+					<Add directory="/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/anaconda3/include/qt/QtGui"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/anaconda3/include/qt/QtCharts"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 WatershedProject/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WatershedProject_autogen">
+				<Option working_dir="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 WatershedProject_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1.h">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1V2.h">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/FilterInterface.h">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.cpp">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.h">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/ui_mainwindow.h">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Utils/Utils.h">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/mocs_compilation.cpp">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/main.cpp">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFMediaPlayerServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_CoreAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
