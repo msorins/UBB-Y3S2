@@ -127,6 +127,9 @@
 		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/FilterInterface.h">
 			<Option target="WatershedProject"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WaterShedFilter.h">
+			<Option target="WatershedProject"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.cpp">
 			<Option target="WatershedProject"/>
 		</Unit>

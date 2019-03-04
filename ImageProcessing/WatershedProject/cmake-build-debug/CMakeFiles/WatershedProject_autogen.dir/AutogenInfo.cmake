@@ -11,7 +11,7 @@ set(AM_BUILD_DIR "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-
 set(AM_INCLUDE_DIR "include")
 # Files
 set(AM_SOURCES "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.cpp;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/main.cpp")
-set(AM_HEADERS "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1V2.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/FilterInterface.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/ui_mainwindow.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Utils/Utils.h")
+set(AM_HEADERS "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1V2.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/FilterInterface.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WaterShedFilter.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/ui_mainwindow.h;/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Utils/Utils.h")
 set(AM_SETTINGS_FILE "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenOldSettings.txt")
 # Qt
 set(AM_QT_VERSION_MAJOR "5")

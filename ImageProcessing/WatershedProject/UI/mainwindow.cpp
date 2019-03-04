@@ -74,10 +74,7 @@ void MainWindow::processImage() {
     this->ui->secondImageLabel->show();
 
     // Save Result Image to disk
-    vector<int> params;
-    params.push_back(CV_IMWRITE_PNG_COMPRESSION);
-    params.push_back(9);
-    string outImageName = "outImage.jpg";
+    string outImageName = "out.jpg";
     imwrite(outImageName, resultImage);
 }
 

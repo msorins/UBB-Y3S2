@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 project(WatershedProject)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD 17)
-add_executable(WatershedProject main.cpp UI/mainwindow.cpp UI/mainwindow.h UI/ui_mainwindow.h Filters/FilterInterface.h Filters/ColorFilterL1.h Filters/ColorFilterL1V2.h Utils/Utils.h)
+add_executable(WatershedProject main.cpp UI/mainwindow.cpp UI/mainwindow.h UI/ui_mainwindow.h Filters/FilterInterface.h Filters/ColorFilterL1.h Filters/ColorFilterL1V2.h  Filters/WaterShedFilter.h  Utils/Utils.h)
 
 
 # OpenCV section

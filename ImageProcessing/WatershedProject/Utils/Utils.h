@@ -16,6 +16,7 @@
 #include <opencv2/opencv.hpp>
 #include <QtGui/QPixmap>
 #include "../Filters/ColorFilterL1V2.h"
+#include "../Filters/WaterShedFilter.h"
 #include <boost/filesystem.hpp>
 #include <boost/range/iterator_range.hpp>
 
@@ -25,14 +26,20 @@ using namespace std;
 class Utils {
 public:
     static QPixmap fromMat(Mat img) {
-        cvtColor(img, img, CV_BGR2RGB);
+        if(img.channels() == 3) {
+            cvtColor(img, img, CV_BGR2RGB);
+        } else {
+            cvtColor(img, img, CV_GRAY2RGB);
+        }
         return QPixmap::fromImage(QImage(img.data, img.cols, img.rows, img.step, QImage::Format_RGB888));
     }
 
     static vector<FilterInterface*> getFilters() {
         vector<FilterInterface*> filters;
+        FilterInterface *f0 = new WaterShedFilter();
         FilterInterface *f1 = new ColorFilterL1();
         FilterInterface *f2 = new ColorFilterL1V2();
+        filters.push_back(f0);
         filters.push_back(f1);
         filters.push_back(f2);
         return filters;

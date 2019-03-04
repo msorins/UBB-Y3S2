@@ -57,7 +57,7 @@ for i = 1:5
 end
 
 % III 6
-[x,y] = meshgrid(-5:.1:5);
+[x,y] = meshgrid(-5:.01:5);
 e = exp(1)
 g = e .^ (-1 .* ( (x - 1 / 2) .^ 2 + (y - 1 / 2) .^ 2 ) )
 mesh(x, y, g)

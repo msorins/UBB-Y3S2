@@ -4,6 +4,7 @@
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/ColorFilterL1.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/ColorFilterL1V2.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/FilterInterface.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/WaterShedFilter.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../UI/mainwindow.cpp
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../UI/mainwindow.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../UI/ui_mainwindow.h
