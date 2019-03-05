@@ -59,7 +59,7 @@ public:
 
         // Erode foreground
         vector< vector<int> > erosionTargetThree{{1, 1, 1}, {1, 1, 1}, {1, 1, 1}, };
-        image = erosion(image, erosionTargetThree);
+//        image = erosion(image, erosionTargetThree);
         image = erosion(image, erosionTargetThree);
 
         // Apply distance transform
@@ -83,18 +83,6 @@ public:
 
 
         image = watershed(image, markers);
-//        for(int i = 0; i < image.rows; i++) {
-//            for(int j = 0; j < image.cols; j++) {
-//                if((int) distanceImage.at<uchar>(i,j) != 0 && image.at<Vec3b>(i, j)[0] == 0 && image.at<Vec3b>(i, j)[1] == 0 && image.at<Vec3b>(i, j)[1] == 0) {
-//                    markers.clear();
-//                    markers.push_back(Point(i, j));
-//                    distanceImage.at<uchar>(i,j) = 25;
-//                    image = watershed(distanceImage, markers);
-//                    return image;
-//                }
-//            }
-//        }
-
         // Return image with contours
         return image;
     }
@@ -315,12 +303,6 @@ private:
         // Transform markerMap into an image
         for(int i = 0; i < image.rows; i++) {
             for(int j = 0; j < image.cols; j++) {
-//                if(markerMap[i][j] != 0) {
-//                    int x = markerMap[i][j];
-//                    auto y = colors[ markerMap[i][j] ];
-//                    cout << i << " " << j << ", color: " << y << "\n";
-//                }
-
                 markerImage.at<Vec3b>(i, j) = colors[ markerMap[i][j] ];
             }
         }
