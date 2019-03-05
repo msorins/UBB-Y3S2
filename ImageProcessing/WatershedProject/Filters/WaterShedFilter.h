@@ -65,10 +65,27 @@ public:
         // Apply distance transform
         vector<Point> markers;
         image = distanceTransform(image, markers);
+        Mat distanceImage = image;
         cout << "Detected " << markers.size() << " markers \n";
 
         // Watershed
+        if(markers.size() == 0) {
+            markers.push_back(Point(627, 414));
+            image.at<uchar>(627,414) = 25;
+        }
+        
         image = watershed(image, markers);
+//        for(int i = 0; i < image.rows; i++) {
+//            for(int j = 0; j < image.cols; j++) {
+//                if((int) distanceImage.at<uchar>(i,j) != 0 && image.at<Vec3b>(i, j)[0] == 0 && image.at<Vec3b>(i, j)[1] == 0 && image.at<Vec3b>(i, j)[1] == 0) {
+//                    markers.clear();
+//                    markers.push_back(Point(i, j));
+//                    distanceImage.at<uchar>(i,j) = 25;
+//                    image = watershed(image, markers);
+//                    return image;
+//                }
+//            }
+//        }
 
         // Return image with contours
         return image;
@@ -121,7 +138,7 @@ private:
 
                     if( !visited[nextX][nextY] && (int) image.at<uchar>(nextX, nextY) == ONE ) {
                         visited[nextX][nextY] = true;
-                        image.at<uchar>(nextX, nextY) = 25;
+                        image.at<uchar>(nextX, nextY) = 50;
                         qx.push(nextX);
                         qy.push(nextY);
                     }
@@ -134,7 +151,7 @@ private:
             int crtY = qy.front(); qy.pop();
 
             bool isBigger = true;
-            for(int h = 0; h < 4; h++) {
+            for(int h = 0; h < 8; h++) {
                 int nextX = crtX + dx[h];
                 int nextY = crtY + dy[h];
 
@@ -142,12 +159,10 @@ private:
                     continue;
                 }
 
-                if( (int) image.at<uchar>(crtX, crtY) < (int) image.at<uchar>(nextX, nextY)) {
+                if( (int) image.at<uchar>(crtX, crtY) <= (int) image.at<uchar>(nextX, nextY)) {
                     isBigger = false;
                 }
 
-                int xx = (int) image.at<uchar>(crtX, crtY);
-                int yy = (int) image.at<uchar>(nextX, nextY);
                 if( (int) image.at<uchar>(crtX, crtY) + STEP < (int) image.at<uchar>(nextX, nextY) ) {
                     visited[nextX][nextY] = true;
                     image.at<uchar>(nextX, nextY) = (uchar) min((image.at<uchar>(crtX, crtY) + STEP), 254);
@@ -161,8 +176,7 @@ private:
                 markerImage.at<Vec3b>(crtX, crtY) = {0, 255, 0};
             }
         }
-
-        imshow("markerImage", markerImage);
+        imshow("Distance: ", image);
         return image;
     }
 
@@ -241,14 +255,14 @@ private:
         // Put markers in priority queue
         int id = 1;
         for(auto marker: markers) {
+            markerMap[marker.x][marker.y] = id;
             for(int i = 0; i < 4; i++) {
+
                 int newX = marker.x + dx[i];
                 int newY = marker.y + dy[i];
                 if(newX < 0 || newY < 0 || newX >= image.rows || newY >= image.cols) {
                     continue;
                 }
-
-                markerMap[ newX ][ newY ] = id;
                 pq.push( Pixel( (int) image.at<uchar>(newX, newY), newX, newY) );
             }
             id++;
@@ -310,6 +324,20 @@ private:
             first = false;
         }
         return min + rand() % (( max + 1 ) - min);
+    }
+
+    Mat bitwiseAnd(Mat originalImage, Mat segmentationImage) {
+        for(int i = 0; i < originalImage.rows; i++) {
+            for(int j = 0; j < originalImage.cols; j++) {
+                if((int) segmentationImage.at<uchar>(i, j) == 0) {
+                    originalImage.at<Vec3b>(i,j)[0] = 0;
+                    originalImage.at<Vec3b>(i,j)[1] = 0;
+                    originalImage.at<Vec3b>(i,j)[2] = 0;
+                }
+            }
+        }
+
+        return originalImage;
     }
 };
 
