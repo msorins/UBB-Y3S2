@@ -5,8 +5,6 @@
 #ifndef WATERSHEDPROJECT_UTILS_H
 #define WATERSHEDPROJECT_UTILS_H
 
-#endif //WATERSHEDPROJECT_UTILS_H
-
 #include <iostream>
 #include <vector>
 #include <cv.h>
@@ -70,3 +68,5 @@ private:
         return fileList;
     }
 };
+
+#endif //WATERSHEDPROJECT_UTILS_H

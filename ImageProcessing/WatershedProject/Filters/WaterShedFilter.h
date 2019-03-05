@@ -2,8 +2,8 @@
 // Created by Sorin Sebastian Mircea on 03/03/2019.
 //
 
-#ifndef WATERSHED_FILTER_L2
-#define WATERSHED_FILTER_L2
+#ifndef WATERSHED_FILTER_Proj
+#define WATERSHED_FILTER_Proj
 
 
 #include <cv.h>
@@ -13,12 +13,33 @@
 #include "FilterInterface.h"
 #include <iostream>
 #include <queue>
+
 using namespace cv;
 using namespace std;
 
 #define ZERO 0
 #define ONE 254
-#define STEP 3
+#define STEP 1
+
+struct Pixel {
+    int val;
+    int x;
+    int y;
+
+    Pixel(int val, int x, int y) : val(val), x(x), y(y) {}
+
+    friend ostream &operator<<(ostream &os, const Pixel &pixel) {
+        os << "val: " << pixel.val << " x: " << pixel.x << " y: " << pixel.y;
+        return os;
+    }
+};
+
+class Comp {
+public:
+    bool operator()(Pixel A, Pixel B) {
+        return A.val < B.val;
+    }
+};
 
 class WaterShedFilter: public FilterInterface {
 public:
@@ -37,16 +58,16 @@ public:
         image = inverseImage(image);
 
         // Erode foreground
-        vector< vector<int> > erosionTarget{{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}};
         vector< vector<int> > erosionTargetThree{{1, 1, 1}, {1, 1, 1}, {1, 1, 1}, };
         image = erosion(image, erosionTargetThree);
         image = erosion(image, erosionTargetThree);
 
         // Apply distance transform
-        image = distanceTransform(image);
+        vector<Point> markers;
+        image = distanceTransform(image, markers);
 
         // Watershed
-
+        image = watershed(image, markers);
 
         // Return image with contours
         return image;
@@ -74,7 +95,7 @@ private:
         return image;
     }
 
-    Mat distanceTransform(Mat image) {
+    Mat distanceTransform(Mat image, vector<Point> &markers) {
         queue<int> qx, qy;
         vector<int> dx{-1, 1, 0, 0, -1, -1, 1, 1};
         vector<int> dy{0, 0, -1, 1, -1,  1, 1, -1};
@@ -122,6 +143,8 @@ private:
                     isBigger = false;
                 }
 
+                int xx = (int) image.at<uchar>(crtX, crtY);
+                int yy = (int) image.at<uchar>(nextX, nextY);
                 if( (int) image.at<uchar>(crtX, crtY) + STEP < (int) image.at<uchar>(nextX, nextY) ) {
                     visited[nextX][nextY] = true;
                     image.at<uchar>(nextX, nextY) = (uchar) min((image.at<uchar>(crtX, crtY) + STEP), 254);
@@ -131,11 +154,10 @@ private:
             }
 
             if(isBigger) {
-                cout << "Peak: " << crtX << " " << crtY << " ; val: " << (int) image.at<uchar>(crtX, crtY) << "\n";
+                markers.push_back(Point(crtX, crtY));
             }
-
-
         }
+
         return image;
     }
 
@@ -194,22 +216,86 @@ private:
 
         return image;
     }
+
+    Mat watershed(Mat image, vector<Point> const &markers) {
+        priority_queue<Pixel, vector<Pixel>, Comp> pq;
+        Mat markerImage(image.rows, image.cols, CV_8UC3, Scalar::all(0));
+        vector<Vec3b> colors{ {0, 0, 0} };
+        for(int i = 1; i < markers.size(); i++) {
+            Vec3b vec;
+            vec[0] = random(0, 254);
+            vec[1] = random(0, 254);
+            vec[2] = random(0, 254);
+            colors.push_back(vec);
+        }
+        vector<vector<int>> markerMap(image.rows, vector<int>(image.cols, 0));
+        vector<vector<bool>> inPq(image.rows, vector<bool>(image.cols, false));
+        vector<int> dx{-1, 1, 0, 0, -1, -1, 1, 1};
+        vector<int> dy{0, 0, -1, 1, -1,  1, 1, -1};
+
+        // Put markers in priority queue
+        int id = 1;
+        for(auto marker: markers) {
+            markerMap[marker.x][marker.y] = id++;
+            pq.push( Pixel( (int) image.at<uchar>(marker.x, marker.y), marker.x, marker.y) );
+        }
+
+        // Do the watershed
+        while(!pq.empty()) {
+            Pixel top = pq.top(); pq.pop();
+
+            bool canLabel = true;
+            int neighboursLabel = 0;
+            for(int i = 0; i < 8; i++) {
+                int nextX = top.x + dx[i];
+                int nextY = top.y + dy[i];
+                if(nextX < 0 || nextY < 0 || nextX >= image.rows || nextY >= image.cols) {
+                    continue;
+                }
+                Pixel next = Pixel( (int) image.at<uchar>(nextX, nextY), nextX, nextY);
+
+                // if the next is free, insert it into priority queue
+                if(markerMap[next.x][next.y] == 0 && inPq[next.x][next.y] == false) {
+                    inPq[next.x][next.y] = true;
+                    pq.push(next);
+                } else {
+                    if(neighboursLabel == 0) {
+                        neighboursLabel = markerMap[next.x][next.y];
+                    } else {
+                        if(markerMap[next.x][next.y] != neighboursLabel && markerMap[next.x][next.y] != 0 ) {
+                            int xx = markerMap[next.x][next.y];
+                            canLabel = false;
+                        }
+                    }
+                }
+            }
+
+            if(canLabel && neighboursLabel != 0) {
+                markerMap[top.x][top.y] = neighboursLabel;
+            }
+        }
+
+        // Transform markerMap into an image
+        for(int i = 0; i < image.rows; i++) {
+            for(int j = 0; j < image.cols; j++) {
+                markerImage.at<Vec3b>(i, j) = colors[ markerMap[i][j] ];
+            }
+        }
+
+        return markerImage;
+    }
+
+
+    int random(int min, int max) //range : [min, max)
+    {
+        static bool first = true;
+        if (first)
+        {
+            srand( time(NULL) ); //seeding for the first time only!
+            first = false;
+        }
+        return min + rand() % (( max + 1 ) - min);
+    }
 };
 
-/*
- * 0 0 0 1 1 1 1
- * 0 0 1 1 1 1 1
- * 0 1 1 1 1 1 0
- * 0 0 1 1 1 1 0
- * 0 0 0 0 0 0 0
- * 0 0 0 0 0 0 0
- *
- *
- * 0 0 0 1 1 1 1
- * 0 0 0 z 1 1 1
- * 0 1 1 1 1 1 0
- * 0 0 1 1 1 1 0
- * 0 0 0 0 0 0 0
- * 0 0 0 0 0 0 0
- */
 #endif
