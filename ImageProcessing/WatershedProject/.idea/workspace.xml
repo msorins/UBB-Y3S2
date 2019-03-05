@@ -13,10 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeda8628-c2aa-4ece-93e5-89bc5c10de26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Filters/WaterShedFilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Filters/WaterShedFilter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/chessBoard.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pills2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Testing" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,7 +30,7 @@
     <session id="-267899379">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="1" />
@@ -41,15 +40,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="2323" />
-          <entry key="h" value="10507" />
-          <entry key="mm" value="6" />
+          <entry key="h" value="10974" />
+          <entry key="mm" value="22" />
           <entry key="txt" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="122" />
-          <entry key="ObjectiveC" value="12836" />
+          <entry key="ObjectiveC" value="13319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/mainwindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-453">
+            <state relative-caret-position="-170">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -86,12 +85,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Filters/WaterShedFilter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
-                <element signature="e#4230#4608#0" />
                 <element signature="e#4614#6019#0" />
                 <element signature="e#8627#8914#0" />
+                <marker date="1551797735172" expanded="true" signature="1601:2035" ph="..." />
               </folding>
             </state>
           </provider>
@@ -172,6 +171,8 @@
       <find>sr</find>
       <find>sho</find>
       <find>20</find>
+      <find>colors</find>
+      <find>i =</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -321,12 +322,12 @@
       <workItem from="1551611836843" duration="3070000" />
       <workItem from="1551697510665" duration="5672000" />
       <workItem from="1551704321766" duration="13062000" />
-      <workItem from="1551770576406" duration="15071000" />
+      <workItem from="1551770576406" duration="17600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40213000" />
+    <option name="totallyTimeSpent" value="42742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -337,7 +338,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18673469" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31428573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3102041" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,7 +347,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.28061223" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.28061223" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -360,19 +361,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Filters/WaterShedFilter.h</url>
-          <line>271</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>markerMaip[i][j]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>markerMap[next.x][next.y]</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -454,16 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/mainwindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/Utils.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -481,14 +466,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UI/mainwindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Filters/WaterShedFilter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
-            <element signature="e#4230#4608#0" />
             <element signature="e#4614#6019#0" />
             <element signature="e#8627#8914#0" />
+            <marker date="1551797735172" expanded="true" signature="1601:2035" ph="..." />
           </folding>
         </state>
       </provider>

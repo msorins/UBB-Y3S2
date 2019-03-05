@@ -70,10 +70,18 @@ public:
 
         // Watershed
         if(markers.size() == 0) {
-            markers.push_back(Point(627, 414));
-            image.at<uchar>(627,414) = 25;
+            for(int i = 0; i < image.rows; i++) {
+                for(int j = 0; j < image.cols; j++) {
+                    if((int) distanceImage.at<uchar>(i,j) != 0) {
+                        markers.push_back(Point(i, j));
+                        image.at<uchar>(i, j) = 25;
+                        return watershed(image, markers);
+                    }
+                }
+            }
         }
-        
+
+
         image = watershed(image, markers);
 //        for(int i = 0; i < image.rows; i++) {
 //            for(int j = 0; j < image.cols; j++) {
@@ -81,7 +89,7 @@ public:
 //                    markers.clear();
 //                    markers.push_back(Point(i, j));
 //                    distanceImage.at<uchar>(i,j) = 25;
-//                    image = watershed(image, markers);
+//                    image = watershed(distanceImage, markers);
 //                    return image;
 //                }
 //            }
@@ -240,11 +248,11 @@ private:
         priority_queue<Pixel, vector<Pixel>, Comp> pq;
         Mat markerImage(image.rows, image.cols, CV_8UC3, Scalar::all(0));
             vector<Vec3b> colors{ {0, 0, 0} };
-            for(int i = 1; i < markers.size(); i++) {
+            for(int i = 1; i <= markers.size() + 5; i++) {
             Vec3b vec;
-            vec[0] = random(0, 254);
-            vec[1] = random(0, 254);
-            vec[2] = random(0, 254);
+            vec[0] = random(1, 254);
+            vec[1] = random(1, 254);
+            vec[2] = random(1, 254);
             colors.push_back(vec);
         }
         vector<vector<int>> markerMap(image.rows, vector<int>(image.cols, 0));
@@ -253,7 +261,7 @@ private:
         vector<int> dy{0, 0, -1, 1, -1,  1, 1, -1};
 
         // Put markers in priority queue
-        int id = 1;
+        int id = 2;
         for(auto marker: markers) {
             markerMap[marker.x][marker.y] = id;
             for(int i = 0; i < 4; i++) {
@@ -307,6 +315,12 @@ private:
         // Transform markerMap into an image
         for(int i = 0; i < image.rows; i++) {
             for(int j = 0; j < image.cols; j++) {
+//                if(markerMap[i][j] != 0) {
+//                    int x = markerMap[i][j];
+//                    auto y = colors[ markerMap[i][j] ];
+//                    cout << i << " " << j << ", color: " << y << "\n";
+//                }
+
                 markerImage.at<Vec3b>(i, j) = colors[ markerMap[i][j] ];
             }
         }
