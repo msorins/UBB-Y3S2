@@ -13,10 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeda8628-c2aa-4ece-93e5-89bc5c10de26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Filters/WaterShedFilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Filters/WaterShedFilter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/Utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WatershedProjectQT_UI/WatershedProjectQT_UI.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../WatershedProjectQT_UI/WatershedProjectQT_UI.pro.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Testing" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -41,7 +38,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="2323" />
-          <entry key="h" value="8043" />
+          <entry key="h" value="9284" />
           <entry key="mm" value="6" />
           <entry key="txt" value="122" />
         </counts>
@@ -49,7 +46,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="122" />
-          <entry key="ObjectiveC" value="10372" />
+          <entry key="ObjectiveC" value="11613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,8 +82,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Filters/WaterShedFilter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="141" column="132" selection-start-line="141" selection-start-column="132" selection-end-line="141" selection-end-column="132" />
+            <state relative-caret-position="467">
+              <caret line="271" column="69" lean-forward="true" selection-start-line="271" selection-start-column="69" selection-end-line="271" selection-end-column="69" />
+              <folding>
+                <element signature="e#4230#4608#0" />
+                <element signature="e#4614#6019#0" />
+                <element signature="e#8627#8914#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +155,8 @@
       <find>hello</find>
       <find>sr</find>
       <find>h &lt; 4</find>
+      <find>100</find>
+      <find>3b</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -302,12 +306,12 @@
       <workItem from="1551611836843" duration="3070000" />
       <workItem from="1551697510665" duration="5672000" />
       <workItem from="1551704321766" duration="13062000" />
-      <workItem from="1551770576406" duration="7804000" />
+      <workItem from="1551770576406" duration="11990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32946000" />
+    <option name="totallyTimeSpent" value="37132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -446,8 +450,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Filters/WaterShedFilter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="141" column="132" selection-start-line="141" selection-start-column="132" selection-end-line="141" selection-end-column="132" />
+        <state relative-caret-position="467">
+          <caret line="271" column="69" lean-forward="true" selection-start-line="271" selection-start-column="69" selection-end-line="271" selection-end-column="69" />
+          <folding>
+            <element signature="e#4230#4608#0" />
+            <element signature="e#4614#6019#0" />
+            <element signature="e#8627#8914#0" />
+          </folding>
         </state>
       </provider>
     </entry>

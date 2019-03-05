@@ -65,6 +65,7 @@ public:
         // Apply distance transform
         vector<Point> markers;
         image = distanceTransform(image, markers);
+        cout << "Detected " << markers.size() << " markers \n";
 
         // Watershed
         image = watershed(image, markers);
@@ -96,6 +97,8 @@ private:
     }
 
     Mat distanceTransform(Mat image, vector<Point> &markers) {
+        vector< vector<double> > distanceMap(image.rows, vector<double>(image.cols, 0));
+        Mat markerImage(image.rows, image.cols, CV_8UC3, Scalar::all(0));
         queue<int> qx, qy;
         vector<int> dx{-1, 1, 0, 0, -1, -1, 1, 1};
         vector<int> dy{0, 0, -1, 1, -1,  1, 1, -1};
@@ -118,7 +121,7 @@ private:
 
                     if( !visited[nextX][nextY] && (int) image.at<uchar>(nextX, nextY) == ONE ) {
                         visited[nextX][nextY] = true;
-                        image.at<uchar>(nextX, nextY) = 100;
+                        image.at<uchar>(nextX, nextY) = 25;
                         qx.push(nextX);
                         qy.push(nextY);
                     }
@@ -131,7 +134,7 @@ private:
             int crtY = qy.front(); qy.pop();
 
             bool isBigger = true;
-            for(int h = 0; h < 8; h++) {
+            for(int h = 0; h < 4; h++) {
                 int nextX = crtX + dx[h];
                 int nextY = crtY + dy[h];
 
@@ -139,7 +142,7 @@ private:
                     continue;
                 }
 
-                if( (int) image.at<uchar>(crtX, crtY) <= (int) image.at<uchar>(nextX, nextY)) {
+                if( (int) image.at<uchar>(crtX, crtY) < (int) image.at<uchar>(nextX, nextY)) {
                     isBigger = false;
                 }
 
@@ -155,9 +158,11 @@ private:
 
             if(isBigger) {
                 markers.push_back(Point(crtX, crtY));
+                markerImage.at<Vec3b>(crtX, crtY) = {0, 255, 0};
             }
         }
 
+        imshow("markerImage", markerImage);
         return image;
     }
 
@@ -220,8 +225,8 @@ private:
     Mat watershed(Mat image, vector<Point> const &markers) {
         priority_queue<Pixel, vector<Pixel>, Comp> pq;
         Mat markerImage(image.rows, image.cols, CV_8UC3, Scalar::all(0));
-        vector<Vec3b> colors{ {0, 0, 0} };
-        for(int i = 1; i < markers.size(); i++) {
+            vector<Vec3b> colors{ {0, 0, 0} };
+            for(int i = 1; i < markers.size(); i++) {
             Vec3b vec;
             vec[0] = random(0, 254);
             vec[1] = random(0, 254);
@@ -236,8 +241,17 @@ private:
         // Put markers in priority queue
         int id = 1;
         for(auto marker: markers) {
-            markerMap[marker.x][marker.y] = id++;
-            pq.push( Pixel( (int) image.at<uchar>(marker.x, marker.y), marker.x, marker.y) );
+            for(int i = 0; i < 4; i++) {
+                int newX = marker.x + dx[i];
+                int newY = marker.y + dy[i];
+                if(newX < 0 || newY < 0 || newX >= image.rows || newY >= image.cols) {
+                    continue;
+                }
+
+                markerMap[ newX ][ newY ] = id;
+                pq.push( Pixel( (int) image.at<uchar>(newX, newY), newX, newY) );
+            }
+            id++;
         }
 
         // Do the watershed
@@ -246,7 +260,7 @@ private:
 
             bool canLabel = true;
             int neighboursLabel = 0;
-            for(int i = 0; i < 8; i++) {
+            for(int i = 0; i < 4; i++) {
                 int nextX = top.x + dx[i];
                 int nextY = top.y + dy[i];
                 if(nextX < 0 || nextY < 0 || nextX >= image.rows || nextY >= image.cols) {
@@ -254,23 +268,24 @@ private:
                 }
                 Pixel next = Pixel( (int) image.at<uchar>(nextX, nextY), nextX, nextY);
 
-                // if the next is free, insert it into priority queue
-                if(markerMap[next.x][next.y] == 0 && inPq[next.x][next.y] == false) {
-                    inPq[next.x][next.y] = true;
-                    pq.push(next);
-                } else {
+                // Must check if all surrounding marked have the same color
+                if(markerMap[next.x][next.y] != 0 && next.val != 0) {
                     if(neighboursLabel == 0) {
                         neighboursLabel = markerMap[next.x][next.y];
                     } else {
-                        if(markerMap[next.x][next.y] != neighboursLabel && markerMap[next.x][next.y] != 0 ) {
-                            int xx = markerMap[next.x][next.y];
+                        if(markerMap[next.x][next.y] != neighboursLabel ) {
                             canLabel = false;
                         }
+                    }
+                } else {
+                    if(inPq[nextX][nextY] == false) {
+                        inPq[next.x][next.y] = true;
+                        pq.push(next);
                     }
                 }
             }
 
-            if(canLabel && neighboursLabel != 0) {
+            if(canLabel) {
                 markerMap[top.x][top.y] = neighboursLabel;
             }
         }
