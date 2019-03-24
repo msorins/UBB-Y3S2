@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f2ebad2-df0f-453c-b06e-2fc87dcfa920" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1386493592">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="366" />
+          <entry key="xml" value="93" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="366" />
+          <entry key="XML" value="93" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/AbstractCrudRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XMLStdTests.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="77" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>surfir</find>
+      <find>sunfire</find>
+      <find>935</find>
+      <find>No</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/XMLStdTests.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MemoryRepository" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553104954549" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MemoryRepositoryTest">
+    <configuration name="MemoryRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabTestingJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.MemoryRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryRepositoryTest.testGroupNOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabTestingJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.MemoryRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
+      <option name="METHOD_NAME" value="testGroupNOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryRepositoryTest.testGroupOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabTestingJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.MemoryRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
+      <option name="METHOD_NAME" value="testGroupOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryRepositoryTest.testIdNOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabTestingJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.MemoryRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
+      <option name="METHOD_NAME" value="testIdNOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryRepositoryTest.testNameNOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabTestingJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.MemoryRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
+      <option name="METHOD_NAME" value="testNameNOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MemoryRepositoryTest" />
+      <item itemvalue="JUnit.MemoryRepositoryTest.testIdNOk" />
+      <item itemvalue="JUnit.MemoryRepositoryTest.testNameNOk" />
+      <item itemvalue="JUnit.MemoryRepositoryTest.testGroupOk" />
+      <item itemvalue="JUnit.MemoryRepositoryTest.testGroupNOk" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MemoryRepositoryTest" />
+        <item itemvalue="JUnit.MemoryRepositoryTest.testGroupNOk" />
+        <item itemvalue="JUnit.MemoryRepositoryTest.testGroupOk" />
+        <item itemvalue="JUnit.MemoryRepositoryTest.testNameNOk" />
+        <item itemvalue="JUnit.MemoryRepositoryTest.testIdNOk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f2ebad2-df0f-453c-b06e-2fc87dcfa920" name="Default Changelist" comment="" />
+      <created>1552829508130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552829508130</updated>
+      <workItem from="1552829509447" duration="1625000" />
+      <workItem from="1552835015078" duration="848000" />
+      <workItem from="1553099335430" duration="3609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MemoryRepositoryTest_testGroupOk - 2019.03.20 at 19h 03m 02s.xml">
+      <configuration name="MemoryRepositoryTest.testGroupOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest_testGroupNOk - 2019.03.20 at 19h 03m 19s.xml">
+      <configuration name="MemoryRepositoryTest.testGroupNOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest_testGroupNOk - 2019.03.20 at 19h 03m 36s.xml">
+      <configuration name="MemoryRepositoryTest.testGroupNOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest_testGroupNOk - 2019.03.20 at 19h 03m 59s.xml">
+      <configuration name="MemoryRepositoryTest.testGroupNOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 04m 04s.xml">
+      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 04m 31s.xml">
+      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 06m 39s.xml">
+      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 18m 44s.xml">
+      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 19m 13s.xml">
+      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 39m 32s.xml">
+      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6082000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22954823" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39183673" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.29693878" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven-2 Build" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainTesting/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTesting/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestStd.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XMLStdTests.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="77" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/AbstractCrudRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
