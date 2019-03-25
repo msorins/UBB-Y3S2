@@ -26,10 +26,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/anaconda3/include/qt"
   "/anaconda3/include/qt/QtCore"
   "/anaconda3/./mkspecs/macx-clang"
-  "/anaconda3/include/qt/QtWidgets"
-  "/anaconda3/include/qt/QtGui"
+  "/Users/so/anaconda3/include/qt"
+  "/Users/so/anaconda3/include/qt/QtWidgets"
+  "/Users/so/anaconda3/include/qt/QtGui"
   "/System/Library/Frameworks/OpenGL.framework/Headers"
-  "/anaconda3/include/qt/QtCharts"
+  "/Users/so/anaconda3/include/qt/QtCharts"
   )
 
 # Targets to which this target links.

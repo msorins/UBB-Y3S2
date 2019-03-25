@@ -191,23 +191,20 @@ private:
         return image;
     }
 
-    Mat erosion(Mat image, vector< vector <int> > target) {
-        /*
-         * target = square matrix
-         */
-        int n = target.size();
-        int m = target[0].size();
+    Mat erosion(Mat image, vector< vector <int> > kernel) {
+        int n = kernel.size();
+        int m = kernel[0].size();
 
         vector< vector < bool> > shouldBeZeroImage(image.rows, vector<bool>(image.cols, false));
         for(int i = n / 2; i < image.rows - n / 2; i++) {
             for(int j = m / 2; j < image.cols - m / 2; j++) {
 
-                // Loop the target
+                // Loop the kernel
                 if( (int) image.at<uchar>(i, j) == ONE) {
                     bool shouldBeZero = false;
                     for(int crtX = i - n / 2, x = 0; crtX <= i + n / 2; crtX++, x++) {
                         for(int crtY = j - m / 2, y = 0; crtY <= j + m / 2; crtY++, y++) {
-                            if((int) image.at<uchar>(crtX, crtY) == ZERO && target[x][y] == 1) {
+                            if((int) image.at<uchar>(crtX, crtY) == ZERO && kernel[x][y] == 1) {
                                 shouldBeZero = true;
                                 break;
                             }

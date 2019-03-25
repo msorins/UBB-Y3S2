@@ -50,7 +50,7 @@ void MainWindow::processImage() {
     string filterName    =  this->ui->filterComboBox->currentText().toStdString();
 
     // Read Image
-    Mat img =  imread(imagePath, CV_LOAD_IMAGE_UNCHANGED);
+    Mat img =  imread(imagePath,     CV_LOAD_IMAGE_COLOR);
     cout << "Processing image: " << imagePath << " with function: " <<  filterName << "\n";
 
     // Show Initial image

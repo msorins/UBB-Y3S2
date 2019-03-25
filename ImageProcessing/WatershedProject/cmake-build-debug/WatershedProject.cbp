@@ -5,7 +5,7 @@
 		<Option title="WatershedProject"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\..\anaconda3\;CMake Files\..\..\..\..\..\..\anaconda3\lib\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\..\anaconda3\;CMake Files\..\..\..\..\..\..\anaconda3\lib\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\anaconda3\;CMake Files\..\..\..\..\anaconda3\lib\;CMake Files\..\..\..\..\anaconda3\lib\cmake\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug"/>
@@ -54,10 +54,11 @@
 					<Add directory="/anaconda3/include/qt"/>
 					<Add directory="/anaconda3/include/qt/QtCore"/>
 					<Add directory="/anaconda3/./mkspecs/macx-clang"/>
-					<Add directory="/anaconda3/include/qt/QtWidgets"/>
-					<Add directory="/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Users/so/anaconda3/include/qt"/>
+					<Add directory="/Users/so/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Users/so/anaconda3/include/qt/QtGui"/>
 					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
-					<Add directory="/anaconda3/include/qt/QtCharts"/>
+					<Add directory="/Users/so/anaconda3/include/qt/QtCharts"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -89,10 +90,11 @@
 					<Add directory="/anaconda3/include/qt"/>
 					<Add directory="/anaconda3/include/qt/QtCore"/>
 					<Add directory="/anaconda3/./mkspecs/macx-clang"/>
-					<Add directory="/anaconda3/include/qt/QtWidgets"/>
-					<Add directory="/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Users/so/anaconda3/include/qt"/>
+					<Add directory="/Users/so/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Users/so/anaconda3/include/qt/QtGui"/>
 					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
-					<Add directory="/anaconda3/include/qt/QtCharts"/>
+					<Add directory="/Users/so/anaconda3/include/qt/QtCharts"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -118,16 +120,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1.h">
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/BitExtraction.h">
 			<Option target="WatershedProject"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1V2.h">
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1.h">
 			<Option target="WatershedProject"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/FilterInterface.h">
 			<Option target="WatershedProject"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/NegativeOfImage.h">
+			<Option target="WatershedProject"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WaterShedFilter.h">
+			<Option target="WatershedProject"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WindowOperation.h">
 			<Option target="WatershedProject"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.cpp">
@@ -178,110 +186,110 @@
 		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFMediaPlayerServicePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFMediaPlayerServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFServicePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_CoreAudioPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_CoreAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Multimedia\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../anaconda3/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Charts\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

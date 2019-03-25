@@ -2,8 +2,8 @@
 // Created by Sorin Sebastian Mircea on 03/03/2019.
 //
 
-#ifndef COLOR_FILTER_L2
-#define COLOR_FILTER_L2
+#ifndef BIT_EXTRACTION
+#define BIT_EXTRACTION
 
 
 #include <cv.h>
@@ -15,20 +15,19 @@
 
 using namespace cv;
 using namespace std;
-class NegativeOfImage: public FilterInterface {
+class BitExtraction: public FilterInterface {
 public:
-    NegativeOfImage() : FilterInterface("L2: NegativeOfImage") {
+    BitExtraction() : FilterInterface("L2: Bit Extraction") {
 
     }
 
     Mat processImage(Mat image) override {
-
         for(int i = 0; i < image.rows; i++) {
 
             for(int j = 0; j < image.cols; j++) {
-                image.at<cv::Vec3b>(i,j)[0] = 255 - image.at<cv::Vec3b>(i,j)[0];
-                image.at<cv::Vec3b>(i,j)[1] = 255 - image.at<cv::Vec3b>(i,j)[1];
-                image.at<cv::Vec3b>(i,j)[2] = 255 - image.at<cv::Vec3b>(i,j)[2];
+                image.at<cv::Vec3b>(i,j)[0] &= 224;
+                image.at<cv::Vec3b>(i,j)[1] &= 224;
+                image.at<cv::Vec3b>(i,j)[2] &= 224;
 
             }
         }

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1.h
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/BitExtraction.h
 cv.h
 -
 opencv2/core.hpp
@@ -20,7 +20,7 @@ FilterInterface.h
 iostream
 -
 
-/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1V2.h
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1.h
 cv.h
 -
 opencv2/core.hpp
@@ -46,6 +46,20 @@ opencv2/highgui.hpp
 string
 -
 
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/NegativeOfImage.h
+cv.h
+-
+opencv2/core.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui.hpp
+-
+FilterInterface.h
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/FilterInterface.h
+iostream
+-
+
 /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WaterShedFilter.h
 cv.h
 -
@@ -60,6 +74,20 @@ FilterInterface.h
 iostream
 -
 queue
+-
+
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WindowOperation.h
+cv.h
+-
+opencv2/core.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui.hpp
+-
+FilterInterface.h
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/FilterInterface.h
+iostream
 -
 
 /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.cpp
@@ -131,13 +159,29 @@ opencv2/opencv.hpp
 -
 QtGui/QPixmap
 -
-../Filters/ColorFilterL1V2.h
-/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1V2.h
+../Filters/NegativeOfImage.h
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/NegativeOfImage.h
 ../Filters/WaterShedFilter.h
 /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WaterShedFilter.h
+../Filters/WindowOperation.h
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WindowOperation.h
+../Filters/BitExtraction.h
+/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/BitExtraction.h
 boost/filesystem.hpp
 -
 boost/range/iterator_range.hpp
+-
+
+/Users/so/anaconda3/include/qt/QtWidgets/QMainWindow
+qmainwindow.h
+/Users/so/anaconda3/include/qt/QtWidgets/qmainwindow.h
+
+/Users/so/anaconda3/include/qt/QtWidgets/qmainwindow.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+QtWidgets/qtabwidget.h
 -
 
 /anaconda3/include/qt/QtCore/QVariant
@@ -1322,14 +1366,6 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
--
-
-/anaconda3/include/qt/QtWidgets/qmainwindow.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtWidgets/qtabwidget.h
 -
 
 /anaconda3/include/qt/QtWidgets/qmenu.h

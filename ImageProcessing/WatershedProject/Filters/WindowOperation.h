@@ -2,8 +2,8 @@
 // Created by Sorin Sebastian Mircea on 03/03/2019.
 //
 
-#ifndef COLOR_FILTER_L2
-#define COLOR_FILTER_L2
+#ifndef WINDOW_OPERATION
+#define WINDOW_OPERATION
 
 
 #include <cv.h>
@@ -15,20 +15,23 @@
 
 using namespace cv;
 using namespace std;
-class NegativeOfImage: public FilterInterface {
+class WindowOperation: public FilterInterface {
 public:
-    NegativeOfImage() : FilterInterface("NegativeOfImage") {
+    WindowOperation() : FilterInterface("L2: Window Operation") {
 
     }
 
     Mat processImage(Mat image) override {
-
+        int a = 100;
+        int b = 200;
         for(int i = 0; i < image.rows; i++) {
 
             for(int j = 0; j < image.cols; j++) {
-                image.at<cv::Vec3b>(i,j)[0] = 255 - image.at<cv::Vec3b>(i,j)[0];
-                image.at<cv::Vec3b>(i,j)[1] = 255 - image.at<cv::Vec3b>(i,j)[1];
-                image.at<cv::Vec3b>(i,j)[2] = 255 - image.at<cv::Vec3b>(i,j)[2];
+                if( image.at<cv::Vec3b>(i,j)[0]  < a ||  image.at<cv::Vec3b>(i,j)[0]  > b) {
+                    image.at<cv::Vec3b>(i,j)[0] = 0;
+                    image.at<cv::Vec3b>(i,j)[1] = 0;
+                    image.at<cv::Vec3b>(i,j)[2] = 0;
+                }
 
             }
         }
