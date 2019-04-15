@@ -3,41 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f2ebad2-df0f-453c-b06e-2fc87dcfa920" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/AssignmentRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/AssignmentRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CrudRepoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CrudRepoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/HasId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/HasId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/Nota.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/TemaLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/TemaLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/RepositoryException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/RepositoryException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/ServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ValidatorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/ValidatorException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/AbstractCrudRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/AbstractCrudRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/NotaRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/StudentRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/TemaLabRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/Repo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/AbstractFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/AbstractFileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/AbstractXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/AbstractXMLRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/AbstractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/TxtFileService/AbstractService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/NotaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/TxtFileService/NotaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/TxtFileService/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/TemaLabService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/TxtFileService/TemaLabService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/AbstractXMLService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/XMLFileService/AbstractXMLService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/NotaXMLService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/XMLFileService/NotaXMLService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/StudentXMLService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/XMLFileService/StudentXMLService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/XMLFileService/TemaLabXMLService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/ui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/ui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/IValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/IValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/TemaLabValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/TemaLabValidator.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,36 +15,37 @@
     <session id="1386493592">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="10" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="366" />
+          <entry key="java" value="724" />
           <entry key="xml" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="366" />
+          <entry key="JAVA" value="724" />
           <entry key="XML" value="93" />
         </counts>
       </usages-collector>
@@ -99,17 +65,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="52" />
+            <state relative-caret-position="307">
+              <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/IntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/LocalDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="495" column="12" selection-start-line="495" selection-start-column="12" selection-end-line="495" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/LocalDateTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="501" column="12" selection-start-line="501" selection-start-column="12" selection-end-line="501" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Nota.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/AssignmentRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="212">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,6 +164,11 @@
       <find>sunfire</find>
       <find>935</find>
       <find>No</find>
+      <find>NULL</find>
+      <find>Null</find>
+      <find>null</find>
+      <find>Nota(</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,9 +179,11 @@
       <list>
         <option value="$PROJECT_DIR$/XMLStdTests.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/AssignmentRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Domain/Nota.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/IntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -198,6 +210,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +235,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+              <item name="MemoryRepository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
@@ -256,13 +286,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553527075200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554731577582" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -280,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AssignmentRepositoryTest">
+  <component name="RunManager" selected="JUnit.IntegrationTest">
     <configuration name="AssignmentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabTestingJenkins" />
       <extension name="coverage">
@@ -295,6 +324,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabTestingJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.MemoryRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.IntegrationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemoryRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabTestingJenkins" />
       <extension name="coverage">
@@ -305,6 +348,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
       <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryRepositoryTest.shouldAddGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabTestingJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.MemoryRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldAddGradeTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,52 +384,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryRepositoryTest.testGroupOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabTestingJenkins" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Repository.MemoryRepository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
-      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
-      <option name="METHOD_NAME" value="testGroupOk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemoryRepositoryTest.testNameNOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabTestingJenkins" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Repository.MemoryRepository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Repository.MemoryRepository" />
-      <option name="MAIN_CLASS_NAME" value="Repository.MemoryRepository.MemoryRepositoryTest" />
-      <option name="METHOD_NAME" value="testNameNOk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.MemoryRepositoryTest" />
-      <item itemvalue="JUnit.MemoryRepositoryTest.testNameNOk" />
-      <item itemvalue="JUnit.MemoryRepositoryTest.testGroupOk" />
       <item itemvalue="JUnit.MemoryRepositoryTest.testGroupNOk" />
       <item itemvalue="JUnit.AssignmentRepositoryTest" />
+      <item itemvalue="JUnit.MemoryRepositoryTest.shouldAddGradeTest" />
+      <item itemvalue="JUnit.IntegrationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest" />
+        <item itemvalue="JUnit.MemoryRepositoryTest.shouldAddGradeTest" />
         <item itemvalue="JUnit.AssignmentRepositoryTest" />
         <item itemvalue="JUnit.MemoryRepositoryTest" />
         <item itemvalue="JUnit.MemoryRepositoryTest.testGroupNOk" />
-        <item itemvalue="JUnit.MemoryRepositoryTest.testGroupOk" />
-        <item itemvalue="JUnit.MemoryRepositoryTest.testNameNOk" />
       </list>
     </recent_temporary>
   </component>
@@ -388,25 +415,12 @@
       <workItem from="1552835015078" duration="848000" />
       <workItem from="1553099335430" duration="3609000" />
       <workItem from="1553526928642" duration="148000" />
+      <workItem from="1554304394663" duration="887000" />
+      <workItem from="1554729617748" duration="1522000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MemoryRepositoryTest_testGroupNOk - 2019.03.20 at 19h 03m 59s.xml">
-      <configuration name="MemoryRepositoryTest.testGroupNOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 04m 04s.xml">
-      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 04m 31s.xml">
-      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 06m 39s.xml">
-      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 18m 44s.xml">
-      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 19m 13s.xml">
       <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
     </history-entry>
@@ -422,15 +436,29 @@
     <history-entry file="AssignmentRepositoryTest - 2019.03.25 at 17h 17m 56s.xml">
       <configuration name="AssignmentRepositoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AssignmentRepositoryTest - 2019.04.03 at 18h 13m 29s.xml">
+      <configuration name="AssignmentRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest_shouldAddGradeTest - 2019.04.08 at 16h 25m 43s.xml">
+      <configuration name="MemoryRepositoryTest.shouldAddGradeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest_shouldAddGradeTest - 2019.04.08 at 16h 26m 30s.xml">
+      <configuration name="MemoryRepositoryTest.shouldAddGradeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest - 2019.04.08 at 16h 31m 17s.xml">
+      <configuration name="IntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest - 2019.04.08 at 16h 32m 38s.xml">
+      <configuration name="IntegrationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6230000" />
+    <option name="totallyTimeSpent" value="8639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22893773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,7 +467,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39183673" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16836734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,9 +500,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java</url>
-          <line>89</line>
+          <line>95</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/AssignmentRepositoryTest.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -517,17 +551,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/LocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="317">
+          <caret line="501" column="12" selection-start-line="501" selection-start-column="12" selection-end-line="501" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Nota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="495" column="12" selection-start-line="495" selection-start-column="12" selection-end-line="495" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/AssignmentRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="212">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

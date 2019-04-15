@@ -3,10 +3,16 @@ package Repository.MemoryRepository;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
+import Domain.Nota;
 import Domain.Student;
 import Exceptions.ValidatorException;
+import Validator.NotaValidator;
 import Validator.StudentValidator;
 import org.junit.Test;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 /**
  * Unit test for Memory Repository
@@ -268,4 +274,19 @@ public class MemoryRepositoryTest
             assertTrue(ex.getMessage().contains("Indrumator invalid"));
         }
     }
+
+    @Test
+    public void shouldAddGradeTest(){
+        NotaValidator nv = new NotaValidator();
+        NotaRepo notaRepo = new NotaRepo(nv);
+
+        Nota nota = new Nota(1, "testId", 1, 10, null);
+        try{
+            notaRepo.save(nota);
+            assertTrue(true);
+        }catch(Exception ex){
+            assertTrue(false);
+        }
+    }
+
 }

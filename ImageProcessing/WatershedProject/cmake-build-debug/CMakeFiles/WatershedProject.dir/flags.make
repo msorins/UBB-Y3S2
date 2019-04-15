@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_FLAGS = -g   -fPIC -std=gnu++1z
 
-CXX_DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /anaconda3/include/qt -isystem /anaconda3/include/qt/QtCore -isystem /anaconda3/./mkspecs/macx-clang -isystem /Users/so/anaconda3/include/qt -isystem /Users/so/anaconda3/include/qt/QtWidgets -isystem /Users/so/anaconda3/include/qt/QtGui -isystem /System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/so/anaconda3/include/qt/QtCharts 
+CXX_INCLUDES = -I/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /anaconda3/include/qt -isystem /anaconda3/include/qt/QtCore -isystem /anaconda3/./mkspecs/macx-clang -iframework /Users/so/Qt/5.12.0/clang_64/lib -isystem /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /System/Library/Frameworks/OpenGL.framework/Headers 
 

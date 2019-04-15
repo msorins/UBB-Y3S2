@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/so/Qt5.12.0/5.12/clang_64/lib/cmake/Qt5Core")
+  set(CMAKE_INSTALL_PREFIX "/Users/so/Qt/5.12.0/clang_64/lib/cmake/Qt5Core")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

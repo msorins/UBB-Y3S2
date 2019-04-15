@@ -3,16 +3,26 @@
 
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/BitExtraction.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/ColorFilterL1.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/Contour.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/Dilation.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/Erosion.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/FilterInterface.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/HighPassFilter.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/NegativeOfImage.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/RGBtoHSL.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/Skeleton.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/SmoothingMedianFilter.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/Thinning.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/Translation.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/TranslationInvariance.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/WaterShedFilter.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Filters/WindowOperation.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../UI/mainwindow.cpp
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../UI/mainwindow.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../UI/ui_mainwindow.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: ../Utils/Utils.h
-CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /Users/so/anaconda3/include/qt/QtWidgets/QMainWindow
-CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /Users/so/anaconda3/include/qt/QtWidgets/qmainwindow.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtCore/QVariant
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtCore/qabstractitemmodel.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /anaconda3/include/qt/QtCore/qalgorithms.h
@@ -809,6 +819,7 @@ CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/boost/wi
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/boost/winapi/get_last_error.hpp
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/boost/winapi/local_memory.hpp
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/opencv/cv.h
+CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/opencv/cv.hpp
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/opencv/cxcore.h
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/opencv2/calib3d.hpp
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/opencv2/calib3d/calib3d_c.h
@@ -943,8 +954,8 @@ CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o: /usr/local/include/opencv2/
 CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: ../UI/mainwindow.h
 CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: WatershedProject_autogen/KRKR4BN5RM/moc_mainwindow.cpp
 CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: WatershedProject_autogen/mocs_compilation.cpp
-CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: /Users/so/anaconda3/include/qt/QtWidgets/QMainWindow
-CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: /Users/so/anaconda3/include/qt/QtWidgets/qmainwindow.h
+CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: /anaconda3/include/qt/QtCore/qalgorithms.h
 CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: /anaconda3/include/qt/QtCore/qarraydata.h
 CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o: /anaconda3/include/qt/QtCore/qatomic.h

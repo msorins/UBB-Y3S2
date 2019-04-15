@@ -17,6 +17,16 @@
 #include "../Filters/WaterShedFilter.h"
 #include "../Filters/WindowOperation.h"
 #include "../Filters/BitExtraction.h"
+#include "../Filters/Contour.h"
+#include "../Filters/Skeleton.h"
+#include "../Filters/Thinning.h"
+#include "../Filters/Erosion.h"
+#include "../Filters/Dilation.h"
+#include "../Filters/SmoothingMedianFilter.h"
+#include "../Filters/Translation.h"
+#include "../Filters/TranslationInvariance.h"
+#include "../Filters/RGBtoHSL.h"
+#include "../Filters/HighPassFilter.h"
 #include <boost/filesystem.hpp>
 #include <boost/range/iterator_range.hpp>
 
@@ -42,11 +52,31 @@ public:
         FilterInterface *f2 = new NegativeOfImage();
         FilterInterface *f3 = new WindowOperation();
         FilterInterface *f4 = new BitExtraction();
+        FilterInterface *f5 = new HighPassFilter();
+        FilterInterface *f6 = new Contour();
+        FilterInterface *f7 = new Skeleton();
+        FilterInterface *f8 = new Thinning();
+        FilterInterface *f9 = new Erosion();
+        FilterInterface *f10 = new Dilation();
+        FilterInterface *f11 = new SmoothingMedianFilter();
+        FilterInterface *f12 = new Translation();
+        FilterInterface *f13 = new TranslationInvariance();
+        FilterInterface *f14 = new RGBtoHSL();
         filters.push_back(f1);
         filters.push_back(f0);
         filters.push_back(f2);
         filters.push_back(f3);
         filters.push_back(f4);
+        filters.push_back(f5);
+        filters.push_back(f6);
+        filters.push_back(f7);
+        filters.push_back(f8);
+        filters.push_back(f9);
+        filters.push_back(f10);
+        filters.push_back(f11);
+        filters.push_back(f12);
+        filters.push_back(f13);
+        filters.push_back(f14);
         return filters;
     }
 

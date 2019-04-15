@@ -135,7 +135,8 @@ WatershedProject: /usr/local/lib/libopencv_xfeatures2d.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_ximgproc.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_xobjdetect.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_xphoto.3.4.3.dylib
-WatershedProject: /Users/so/anaconda3/lib/libQt5Charts.5.9.7.dylib
+WatershedProject: /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets
+WatershedProject: /Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework/QtGui
 WatershedProject: /usr/local/lib/libboost_regex.dylib
 WatershedProject: /usr/local/lib/libboost_date_time.dylib
 WatershedProject: /usr/local/lib/libboost_system.dylib
@@ -162,8 +163,6 @@ WatershedProject: /usr/local/lib/libopencv_imgcodecs.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_objdetect.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_imgproc.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_core.3.4.3.dylib
-WatershedProject: /Users/so/anaconda3/lib/libQt5Widgets.5.9.7.dylib
-WatershedProject: /Users/so/anaconda3/lib/libQt5Gui.5.9.7.dylib
 WatershedProject: /anaconda3/lib/libQt5Core.5.9.6.dylib
 WatershedProject: CMakeFiles/WatershedProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable WatershedProject"

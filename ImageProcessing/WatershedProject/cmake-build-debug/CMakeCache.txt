@@ -276,25 +276,25 @@ OpenCV_DIR:PATH=/usr/local/share/OpenCV
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //The directory containing a CMake configuration file for Qt5Charts.
-Qt5Charts_DIR:PATH=/Users/so/anaconda3/lib/cmake/Qt5Charts
+Qt5Charts_DIR:PATH=Qt5Charts_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/anaconda3/lib/cmake/Qt5Core
 
 //The directory containing a CMake configuration file for Qt5Gui.
-Qt5Gui_DIR:PATH=/Users/so/anaconda3/lib/cmake/Qt5Gui
+Qt5Gui_DIR:PATH=/Users/so/Qt/5.12.0/clang_64/lib/cmake/Qt5Gui
 
 //The directory containing a CMake configuration file for Qt5Multimedia.
-Qt5Multimedia_DIR:PATH=/Users/so/anaconda3/lib/cmake/Qt5Multimedia
+Qt5Multimedia_DIR:PATH=Qt5Multimedia_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Network.
-Qt5Network_DIR:PATH=/Users/so/anaconda3/lib/cmake/Qt5Network
+Qt5Network_DIR:PATH=/Users/so/Qt/5.12.0/clang_64/lib/cmake/Qt5Network
 
 //The directory containing a CMake configuration file for Qt5OpenGL.
-Qt5OpenGL_DIR:PATH=/Users/so/anaconda3/lib/cmake/Qt5OpenGL
+Qt5OpenGL_DIR:PATH=Qt5OpenGL_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Widgets.
-Qt5Widgets_DIR:PATH=/Users/so/anaconda3/lib/cmake/Qt5Widgets
+Qt5Widgets_DIR:PATH=Qt5Widgets_DIR-NOTFOUND
 
 //Value Computed by CMake
 WatershedProject_BINARY_DIR:STATIC=/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug

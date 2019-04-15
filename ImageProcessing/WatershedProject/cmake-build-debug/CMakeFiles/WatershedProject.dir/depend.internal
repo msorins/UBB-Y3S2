@@ -4,16 +4,26 @@
 CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/BitExtraction.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/ColorFilterL1.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/Contour.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/Dilation.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/Erosion.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/FilterInterface.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/HighPassFilter.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/NegativeOfImage.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/RGBtoHSL.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/Skeleton.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/SmoothingMedianFilter.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/Thinning.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/Translation.h
+ /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/TranslationInvariance.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WaterShedFilter.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/WindowOperation.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.cpp
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/ui_mainwindow.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Utils/Utils.h
- /Users/so/anaconda3/include/qt/QtWidgets/QMainWindow
- /Users/so/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
  /anaconda3/include/qt/QtCore/QVariant
  /anaconda3/include/qt/QtCore/qabstractitemmodel.h
  /anaconda3/include/qt/QtCore/qalgorithms.h
@@ -810,6 +820,7 @@ CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o
  /usr/local/include/boost/winapi/get_last_error.hpp
  /usr/local/include/boost/winapi/local_memory.hpp
  /usr/local/include/opencv/cv.h
+ /usr/local/include/opencv/cv.hpp
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp
  /usr/local/include/opencv2/calib3d/calib3d_c.h
@@ -944,8 +955,8 @@ CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/UI/mainwindow.h
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/KRKR4BN5RM/moc_mainwindow.cpp
  /Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/mocs_compilation.cpp
- /Users/so/anaconda3/include/qt/QtWidgets/QMainWindow
- /Users/so/anaconda3/include/qt/QtWidgets/qmainwindow.h
+ /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
  /anaconda3/include/qt/QtCore/qalgorithms.h
  /anaconda3/include/qt/QtCore/qarraydata.h
  /anaconda3/include/qt/QtCore/qatomic.h

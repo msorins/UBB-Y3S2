@@ -12,7 +12,6 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "QT_CHARTS_LIB"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
   "QT_WIDGETS_LIB"
@@ -26,11 +25,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/anaconda3/include/qt"
   "/anaconda3/include/qt/QtCore"
   "/anaconda3/./mkspecs/macx-clang"
-  "/Users/so/anaconda3/include/qt"
-  "/Users/so/anaconda3/include/qt/QtWidgets"
-  "/Users/so/anaconda3/include/qt/QtGui"
+  "/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework"
+  "/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers"
+  "/Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework"
+  "/Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework/Headers"
   "/System/Library/Frameworks/OpenGL.framework/Headers"
-  "/Users/so/anaconda3/include/qt/QtCharts"
   )
 
 # Targets to which this target links.
