@@ -58,6 +58,39 @@ public class IntegrationTest {
     }
 
     @Test
+    public void testAddStudentAddAssignment() {
+        StudentValidator studentValidator=new StudentValidator();
+        StudentRepo repo = new StudentRepo(studentValidator);
+        Student student = new Student(
+                "testId",
+                "testName",
+                3112,
+                "testMail",
+                "testTeacher"
+        );
+
+
+        TemaLabValidator labValidator=new TemaLabValidator();
+        TemaLabRepo repoTema = new TemaLabRepo(labValidator);
+        TemaLab tema = new TemaLab(
+                20,
+                "testName",
+                10,
+                12
+
+        );
+
+        try{
+            repo.save(student);
+            repoTema.save(tema);
+            assertTrue(true);
+        }
+        catch (Exception ex){
+            assertTrue(false);
+        }
+    }
+
+    @Test
     public void shouldAddGradeTest(){
         NotaValidator nv = new NotaValidator();
         NotaRepo notaRepo = new NotaRepo(nv);
@@ -67,6 +100,45 @@ public class IntegrationTest {
             notaRepo.save(nota);
             assertTrue(true);
         }catch(Exception ex){
+            assertTrue(false);
+        }
+    }
+
+
+    @Test
+    public void testAddStudentAddAssignmentAddGrade() {
+        StudentValidator studentValidator=new StudentValidator();
+        StudentRepo repo = new StudentRepo(studentValidator);
+        Student student = new Student(
+                "testIdx",
+                "testName",
+                3112,
+                "testMail",
+                "testTeacher"
+        );
+
+
+        TemaLabValidator labValidator=new TemaLabValidator();
+        TemaLabRepo repoTema = new TemaLabRepo(labValidator);
+        TemaLab tema = new TemaLab(
+                20,
+                "testName",
+                10,
+                12
+
+        );
+
+        NotaValidator nv = new NotaValidator();
+        NotaRepo notaRepo = new NotaRepo(nv);
+        Nota nota = new Nota(1, "testIdx", 1, 10, null);
+
+        try{
+            repo.save(student);
+            repoTema.save(tema);
+            notaRepo.save(nota);
+            assertTrue(true);
+        }
+        catch (Exception ex){
             assertTrue(false);
         }
     }
