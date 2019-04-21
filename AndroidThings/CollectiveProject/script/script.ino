@@ -41,7 +41,7 @@ void loop() {
   Serial.print(h);
   Serial.print(F(";Temperature "));
   Serial.print(t);
-  Serial.print(F(";CO2 "));
+  Serial.print(F(";CO "));
   Serial.print(co2);
   Serial.println("#");
 }
