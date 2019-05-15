@@ -11,9 +11,12 @@
     "axios": "^0.18.0",
     "chart.js": "^2.8.0",
     "core-js": "^2.6.5",
+    "firebase": "^6.0.2",
     "vue": "^2.6.10",
     "vue-axios": "^2.1.4",
-    "vue-chartjs": "^3.4.2"
+    "vue-chartjs": "^3.4.2",
+    "vue-firestore": "^0.3.21",
+    "vuefire": "^2.0.0-alpha.24"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",

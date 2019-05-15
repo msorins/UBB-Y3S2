@@ -23,7 +23,6 @@ export default {
     getData() {
       this.axios.get("http://192.168.43.130:5000/temperature").then(response => {
         this.$set(this.$data.temperature, "b", 2);
-        console.log(response.data);
 
         this.$data.temperature.push(response.data);
         if (this.$data.labels.length == 0) {
