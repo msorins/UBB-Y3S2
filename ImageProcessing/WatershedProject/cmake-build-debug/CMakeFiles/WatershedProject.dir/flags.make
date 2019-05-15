@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -fPIC -std=gnu++1z
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /anaconda3/include/qt -isystem /anaconda3/include/qt/QtCore -isystem /anaconda3/./mkspecs/macx-clang -iframework /Users/so/Qt/5.12.0/clang_64/lib -isystem /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /System/Library/Frameworks/OpenGL.framework/Headers 
+CXX_INCLUDES = -I/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include -isystem /usr/local/include -isystem /usr/local/include/opencv -iframework /Users/so/Qt/5.12.0/clang_64/lib -isystem /Users/so/Qt/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/so/Qt/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /System/Library/Frameworks/OpenGL.framework/Headers 
 

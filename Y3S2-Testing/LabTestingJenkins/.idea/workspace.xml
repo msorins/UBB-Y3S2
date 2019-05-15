@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f2ebad2-df0f-453c-b06e-2fc87dcfa920" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,38 +16,41 @@
     <session id="1386493592">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="11" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="805" />
-          <entry key="xml" value="93" />
+          <entry key="xml" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="805" />
-          <entry key="XML" value="93" />
+          <entry key="XML" value="95" />
         </counts>
       </usages-collector>
     </session>
@@ -56,11 +60,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
+            <state relative-caret-position="241">
+              <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -86,6 +99,7 @@
       <find>Nota(</find>
       <find>add</find>
       <find>addStudent</find>
+      <find>depende</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,12 +109,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/XMLStdTests.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/AssignmentRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/Nota.java" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/IntegrationTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -117,9 +131,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -201,8 +216,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,13 +352,14 @@
       <workItem from="1554304394663" duration="887000" />
       <workItem from="1554729617748" duration="1522000" />
       <workItem from="1555515637259" duration="928000" />
+      <workItem from="1557148200037" duration="479000" />
+      <workItem from="1557148988100" duration="6000" />
+      <workItem from="1557149279038" duration="119000" />
+      <workItem from="1557151793448" duration="710000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MemoryRepositoryTest - 2019.03.25 at 17h 17m 51s.xml">
-      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AssignmentRepositoryTest - 2019.03.25 at 17h 17m 56s.xml">
       <configuration name="AssignmentRepositoryTest" configurationId="JUnit" />
     </history-entry>
@@ -371,15 +387,18 @@
     <history-entry file="IntegrationTest_testAddStudentAddAssignmentAddGrade - 2019.04.17 at 19h 10m 33s.xml">
       <configuration name="IntegrationTest.testAddStudentAddAssignmentAddGrade" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntegrationTest_testAddStudentAddAssignmentAddGrade - 2019.05.06 at 17h 14m 31s.xml">
+      <configuration name="IntegrationTest.testAddStudentAddAssignmentAddGrade" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9567000" />
+    <option name="totallyTimeSpent" value="10881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31807083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2887668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -468,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/LocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -510,10 +522,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/IntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
+        <state relative-caret-position="241">
+          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

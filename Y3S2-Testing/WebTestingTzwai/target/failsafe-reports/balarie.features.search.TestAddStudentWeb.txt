@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: balarie.features.search.TestAddStudentWeb
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.686 sec - in balarie.features.search.TestAddStudentWeb

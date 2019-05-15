@@ -14,13 +14,15 @@
   <component name="ChangeListManager">
     <list default="true" id="eeda8628-c2aa-4ece-93e5-89bc5c10de26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WatershedProject" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/WatershedProject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WatershedProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/WatershedProject.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Y3S2-Testing/LabAssiAsseProjectV02" beforeDir="false" afterPath="$PROJECT_DIR$/../../Y3S2-Testing/LabAssiAsseProjectV02" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Y3S2-Testing/LabTestingJenkins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Y3S2-Testing/LabTestingJenkins/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Y3S2-Testing/LabTestingJenkins/src/test/java/Repository/MemoryRepository/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Y3S2-Testing/LabTestingJenkins/src/test/java/Repository/MemoryRepository/IntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Y3S2-Testing/LabTestingJenkins/target/test-classes/Repository/MemoryRepository/IntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Y3S2-Testing/LabTestingJenkins/target/test-classes/Repository/MemoryRepository/IntegrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Y3S2-Testing/LabTestingJenkins/target/test-classes/Repository/MemoryRepository/MemoryRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Y3S2-Testing/LabTestingJenkins/target/test-classes/Repository/MemoryRepository/MemoryRepositoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,15 +36,15 @@
     <session id="-267899379">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="11" />
+          <entry key="project.open.time.5" value="12" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -85,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Filters/Skeleton.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
+            <state relative-caret-position="1725">
               <caret line="115" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="e#107#122#0" expanded="true" />
@@ -97,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Filters/TranslationInvariance.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1966">
+            <state relative-caret-position="2040">
               <caret line="136" column="14" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="14" />
               <folding>
                 <element signature="e#135#150#0" expanded="true" />
@@ -109,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Filters/RGBtoHSL.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="158">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -214,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,6 +252,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,11 +342,13 @@
       <workItem from="1555517177794" duration="428000" />
       <workItem from="1555520526711" duration="34000" />
       <workItem from="1555592681897" duration="377000" />
+      <workItem from="1556551498952" duration="286000" />
+      <workItem from="1556745182703" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79292000" />
+    <option name="totallyTimeSpent" value="79634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,12 +363,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1910867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1959707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.42918193" weight="0.021428572" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.42857143" weight="0.021428572" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48046398" weight="0.3102041" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,8 +376,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.498779" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.57081807" side_tool="true" visible="true" weight="0.021428572" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.41086692" weight="0.20918368" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5714286" side_tool="true" visible="true" weight="0.20918368" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.41025642" weight="0.20918368" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -622,10 +626,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Filters/Skeleton.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
+        <state relative-caret-position="1725">
           <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#107#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filters/TranslationInvariance.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="136" column="14" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="14" />
+          <folding>
+            <element signature="e#135#150#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -637,20 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Filters/TranslationInvariance.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1966">
-          <caret line="136" column="14" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="14" />
-          <folding>
-            <element signature="e#135#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Filters/RGBtoHSL.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="158">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
         </state>
       </provider>
     </entry>

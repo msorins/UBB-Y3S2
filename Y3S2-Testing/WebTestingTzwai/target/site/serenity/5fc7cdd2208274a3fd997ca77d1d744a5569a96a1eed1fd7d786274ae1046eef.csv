@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Test add student web","Searching by keyword banana should display the corresponding article","ERROR","2019-05-12T13:05:03.164364+03:00[Europe/Bucharest]","0.0","2.83"
+"Test add student web","Searching by keyword apple should display the corresponding article","FAILURE","2019-05-12T13:22:30.906837+03:00[Europe/Bucharest]","0.0","5.26"
+"Test add student web","Add student incorect","SUCCESS","2019-05-12T13:34:07.367624+03:00[Europe/Bucharest]","0.0","5.45"
+"Test add student web","Add student correct","SUCCESS","2019-05-12T13:34:12.871556+03:00[Europe/Bucharest]","0.0","3.2"

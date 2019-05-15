@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="balarie.features.search.TestAddStudentWeb" skipped="0" tests="2" time="12.14" timestamp="2019-05-12T13:05:03.164364+03:00[Europe/Bucharest]"><testcase classname="balarie.features.search.TestAddStudentWeb" name="Searching by keyword banana should display the corresponding article"><error message="The following error occurred: no such element: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;ol&quot;}&#10;  (Session info: chrome=74.0.3729.131)&#10;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'Sorins-MBP-2-c85b', ip: 'fe80:0:0:0:1c8c:159f:e869:a96b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '11.0.1'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/_6/93dfqk6s40q...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53695}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}&#10;Session ID: 86f7e240905ce1ac7689290be9370155&#10;*** Element info: {Using=tag name, value=ol}" type="org.openqa.selenium.NoSuchElementException">The following error occurred: no such element: Unable to locate element: {"method":"tag name","selector":"ol"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Sorins-MBP-2-c85b', ip: 'fe80:0:0:0:1c8c:159f:e869:a96b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '11.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/_6/93dfqk6s40q...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53695}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 86f7e240905ce1ac7689290be9370155
+*** Element info: {Using=tag name, value=ol}</error><system-err>The following error occurred: no such element: Unable to locate element: {"method":"tag name","selector":"ol"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Sorins-MBP-2-c85b', ip: 'fe80:0:0:0:1c8c:159f:e869:a96b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '11.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/_6/93dfqk6s40q...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53695}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 86f7e240905ce1ac7689290be9370155
+*** Element info: {Using=tag name, value=ol}
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+balarie.pages.DictionaryPage.getDefinitions(DictionaryPage.java:43)
+balarie.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:23)
+balarie.features.search.TestAddStudentWeb.searching_by_keyword_banana_should_display_the_corresponding_article(TestAddStudentWeb.java:34)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</system-err></testcase><testcase classname="balarie.features.search.TestAddStudentWeb" name="Searching by keyword apple should display the corresponding article"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+balarie.pages.DictionaryPage.addStudent(DictionaryPage.java:34)
+balarie.steps.serenity.EndUserSteps.AddUser(EndUserSteps.java:17)
+balarie.features.search.TestAddStudentWeb.searching_by_keyword_apple_should_display_the_corresponding_article(TestAddStudentWeb.java:26)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</system-err></testcase></testsuite>

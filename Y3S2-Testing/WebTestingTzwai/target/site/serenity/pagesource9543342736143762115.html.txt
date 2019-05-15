@@ -1,0 +1,48 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Uitesting</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style type="text/css">/* You can add global styles to this file, and also import other style files */
+</style><style></style></head>
+<body>
+  <app-root _nghost-c0="" ng-version="5.2.11"><div _ngcontent-c0="" style="margin-bottom:5px;">
+  <label _ngcontent-c0="" for="Name">Name</label>
+  <input _ngcontent-c0="" id="nameId" name="Name" type="text">
+</div>
+
+<div _ngcontent-c0="" style="margin-bottom:5px;">
+    <label _ngcontent-c0="" for="Email">Email</label>
+    <input _ngcontent-c0="" id="emailId" name="Email" type="text">
+</div>
+<div _ngcontent-c0="" style="margin-bottom:5px;">
+  <label _ngcontent-c0="" for="Group">Group</label>
+    <input _ngcontent-c0="" id="groupId" name="Group" type="text">
+</div>
+<div _ngcontent-c0="" style="margin-bottom:5px;">
+  <label _ngcontent-c0="" for="Tutor">Tutor</label>
+    <input _ngcontent-c0="" id="tutorId" name="Tutor" type="text">
+</div>
+
+<button _ngcontent-c0="" id="addStudentId">Add Student</button>
+<button _ngcontent-c0="" id="getStudentId">Get Student</button>
+
+<div _ngcontent-c0="" id="students">
+  <!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><li _ngcontent-c0="">
+    Mircea Sorin - sorynsoo@gmail.com - 935 - Tot Sorin
+  </li><li _ngcontent-c0="">
+    Nazarie Ciprian - nazacipri@hotmail.com - 935 - Sorin
+  </li><li _ngcontent-c0="">
+    Peodor Taius - p@taius.com - 936 - Sorin
+  </li><li _ngcontent-c0="">
+    Naomi - naomi@gmail.com - 935 - 
+  </li>
+</div>
+</app-root>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script>
+
+</body></html>

@@ -15,12 +15,12 @@ set(AM_HEADERS "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/Filters/
 set(AM_SETTINGS_FILE "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenOldSettings.txt")
 # Qt
 set(AM_QT_VERSION_MAJOR "5")
-set(AM_QT_MOC_EXECUTABLE "/anaconda3/bin/moc")
+set(AM_QT_MOC_EXECUTABLE "/Users/so/Qt/5.12.0/clang_64/bin/moc")
 set(AM_QT_UIC_EXECUTABLE "")
 # MOC settings
 set(AM_MOC_SKIP "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/mocs_compilation.cpp")
 set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB")
-set(AM_MOC_INCLUDES "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include;/usr/local/include;/usr/local/include/opencv;/anaconda3/include/qt;/anaconda3/include/qt/QtCore;/anaconda3/./mkspecs/macx-clang;/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework;/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers;/Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework;/Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework/Headers;/System/Library/Frameworks/OpenGL.framework/Headers")
+set(AM_MOC_INCLUDES "/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include;/usr/local/include;/usr/local/include/opencv;/Users/so/Qt/5.12.0/clang_64/lib/QtCore.framework;/Users/so/Qt/5.12.0/clang_64/lib/QtCore.framework/Headers;/Users/so/Qt/5.12.0/clang_64/./mkspecs/macx-clang;/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework;/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers;/Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework;/Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework/Headers;/System/Library/Frameworks/OpenGL.framework/Headers")
 set(AM_MOC_OPTIONS "")
 set(AM_MOC_RELAXED_MODE "")
 set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")

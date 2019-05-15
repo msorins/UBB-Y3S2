@@ -1,0 +1,3 @@
+name,email,group,tutor
+"Naomi","naomi@gmail.com","zabuzi","Cipri Tutorele"
+"Costel","costel@busuioc.com","ciruza","Sorin seful la bani"

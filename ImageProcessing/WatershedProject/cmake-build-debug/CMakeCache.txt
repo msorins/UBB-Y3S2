@@ -279,7 +279,7 @@ ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 Qt5Charts_DIR:PATH=Qt5Charts_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Core.
-Qt5Core_DIR:PATH=/anaconda3/lib/cmake/Qt5Core
+Qt5Core_DIR:PATH=/Users/so/Qt/5.12.0/clang_64/lib/cmake/Qt5Core
 
 //The directory containing a CMake configuration file for Qt5Gui.
 Qt5Gui_DIR:PATH=/Users/so/Qt/5.12.0/clang_64/lib/cmake/Qt5Gui

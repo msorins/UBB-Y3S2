@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1037454033415",
+    "firebase_url": "https://officeairquality-51446.firebaseio.com",
+    "project_id": "officeairquality-51446",
+    "storage_bucket": "officeairquality-51446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037454033415:android:2c289a63d078bbb3",
+        "android_client_info": {
+          "package_name": "com.mircea.sorin.sebastian.officeairquality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037454033415-7phinjtbh594gqhlft43tiarmttvsqrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1JFeyqvS6ADSPOyechAZXVgCH_lgcO8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037454033415-7phinjtbh594gqhlft43tiarmttvsqrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

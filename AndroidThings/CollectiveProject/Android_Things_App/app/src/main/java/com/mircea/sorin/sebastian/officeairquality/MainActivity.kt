@@ -7,12 +7,17 @@ import com.google.android.things.pio.PeripheralManager
 import com.google.android.things.pio.UartDevice
 import java.io.IOException
 import android.system.Os.listen
+import com.google.firebase.firestore.DocumentReference
+import com.google.firebase.firestore.FirebaseFirestore
 import com.koushikdutta.async.http.server.AsyncHttpServerResponse
 import com.koushikdutta.async.http.server.AsyncHttpServerRequest
 import com.koushikdutta.async.http.server.HttpServerRequestCallback
 import com.koushikdutta.async.http.WebSocket
 import com.koushikdutta.async.http.server.AsyncHttpServer
 import java.lang.Exception
+import java.sql.Timestamp
+import java.time.Instant
+import kotlin.concurrent.fixedRateTimer
 
 
 /**
@@ -35,6 +40,10 @@ import java.lang.Exception
  * @see <a href="https://github.com/androidthings/contrib-drivers#readme">https://github.com/androidthings/contrib-drivers#readme</a>
  *
  */
+
+data class Reading(val timestamp: Long, val humidity: Float, val temperature: Float, val co: Float) {
+}
+
 class MainActivity : Activity() {
     // UART Device Name
     private lateinit var UART_DEVICE_NAME: String
@@ -44,6 +53,9 @@ class MainActivity : Activity() {
     private var temperature: Float = 0.0f
     private var co: Float = 0.0f
 
+    lateinit var db: FirebaseFirestore
+    var EVERY_SECOND = 5000L
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -52,6 +64,9 @@ class MainActivity : Activity() {
     override fun onStart() {
         super.onStart()
         Log.d("START", "I'm started")
+
+        // Initialise FirebaseFirestore
+        db = FirebaseFirestore.getInstance()
 
         // Get PeripheralManager instance
         val manager = PeripheralManager.getInstance()
@@ -101,17 +116,41 @@ class MainActivity : Activity() {
             val server = AsyncHttpServer()
             server.get(
                 "/humidity"
-            ) { request, response -> response.send(this.humidity.toString()) }
+            ) { request, response -> run {
+                response.getHeaders().set("Access-Control-Allow-Methods", "POST, GET, DELETE, PUT, OPTIONS");
+                response.getHeaders().set("Access-Control-Allow-Origin", "*");
+                response.send(this.humidity.toString())
+            } }
 
             server.get(
                 "/temperature"
-            ) { request, response -> response.send(this.temperature.toString()) }
+            ) { request, response -> run {
+                response.getHeaders().set("Access-Control-Allow-Methods", "POST, GET, DELETE, PUT, OPTIONS");
+                response.getHeaders().set("Access-Control-Allow-Origin", "*");
+                response.send(this.temperature.toString())
+            }}
 
             server.get(
                 "/co"
-            ) { request, response -> response.send(this.co.toString()) }
+            ) { request, response -> run {
+                response.getHeaders().set("Access-Control-Allow-Methods", "POST, GET, DELETE, PUT, OPTIONS");
+                response.getHeaders().set("Access-Control-Allow-Origin", "*");
+                response.send(this.co.toString())
+              }
+            }
             server.listen(5000)
         }.run()
+
+        // Send data to Firestore every x seconds
+        fixedRateTimer("default", false, 0L, EVERY_SECOND){
+            val readingsCollectionRef = db.collection("readings")
+            val reading = Reading(timestamp = System.currentTimeMillis(),
+                humidity = this@MainActivity.humidity,
+                temperature = this@MainActivity.temperature,
+                co = this@MainActivity.co)
+
+            readingsCollectionRef.add(reading)
+        }
 
         // Listen for serial
         readUartBuffer(mDevice!!)

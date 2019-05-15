@@ -163,7 +163,7 @@ WatershedProject: /usr/local/lib/libopencv_imgcodecs.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_objdetect.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_imgproc.3.4.3.dylib
 WatershedProject: /usr/local/lib/libopencv_core.3.4.3.dylib
-WatershedProject: /anaconda3/lib/libQt5Core.5.9.6.dylib
+WatershedProject: /Users/so/Qt/5.12.0/clang_64/lib/QtCore.framework/QtCore
 WatershedProject: CMakeFiles/WatershedProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable WatershedProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WatershedProject.dir/link.txt --verbose=$(VERBOSE)

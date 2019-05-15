@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e771cc9-c320-4e49-b810-ddb694a25647" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebTestingTzwai/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebTestingTzwai/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebTestingTzwai/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebTestingTzwai/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebTestingTzwai/src/test/java/balarie/features/search/TestDoNotAddStudentWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebTestingTzwai/src/test/resources/features/search/notest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/Android_Things_App/app/src/main/java/com/mircea/sorin/sebastian/officeairquality/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/Android_Things_App/app/src/main/java/com/mircea/sorin/sebastian/officeairquality/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenOldSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenOldSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/KRKR4BN5RM/moc_mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/KRKR4BN5RM/moc_mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/out.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/out.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabAssiAsseProjectV02" beforeDir="false" afterPath="$PROJECT_DIR$/../LabAssiAsseProjectV02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabTestingJenkins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTestingJenkins/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabTestingJenkins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTestingJenkins/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../this" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="159728768">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="914" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="914" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".append" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.11/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GO_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO_API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GO_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO_API" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GO_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO_API" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="darwin_amd64" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GO_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO_API" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="darwin_amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GO_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO_API" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="darwin_amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="gorilla" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GO_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GO_API" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GO_API" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29693878" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

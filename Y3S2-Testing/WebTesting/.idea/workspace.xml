@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ce569f3-49d6-4df5-84b8-5088e2959d94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenOldSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenOldSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/KRKR4BN5RM/moc_mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/KRKR4BN5RM/moc_mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/out.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/out.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabAssiAsseProjectV02" beforeDir="false" afterPath="$PROJECT_DIR$/../LabAssiAsseProjectV02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabTestingJenkins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTestingJenkins/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="566469812">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/1/0/0/features/search/package-info.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/1/0/0/features/search/SearchByKeywordStory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serenity</find>
+      <find>serenity.ver</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="0" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557150144631" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.catalog" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="VM_PARAMETERS" value="-Dwebdriver.chrome.driver=&quot;$PROJECT_DIR$/../chromedriver&quot;" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ce569f3-49d6-4df5-84b8-5088e2959d94" name="Default Changelist" comment="" />
+      <created>1557149395866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557149395866</updated>
+      <workItem from="1557149399871" duration="302000" />
+      <workItem from="1557149846133" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="608000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24908425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven-2 Build" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/1/0/0/features/search/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/1/0/0/features/search/SearchByKeywordStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

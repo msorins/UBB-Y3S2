@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Features</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- jQplot -->
+<!--[if IE]>
+<script language="javascript" type="text/javascript" src="excanvas/3/excanvas.compiled.js"></script>
+<![endif]--><link rel="stylesheet" type="text/css" href="jqplot/1.0.8/jquery.jqplot.min.css"/>
+<script type="text/javascript" src="jqplot/1.0.8/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js"></script>
+
+
+
+
+    <script class="code" type="text/javascript">$(document).ready(function () {
+        var plot1 = $.jqplot('coverage_pie_chart', [
+            [
+                ['Passing', 0],
+                ['Pending', 1],
+                ['Ignored', 0],
+                ['Failing', 0],
+                ['Errors',  0],
+                ['Compromised',  0],
+                ['Untested',  0],
+            ]
+        ], {
+            gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
+            seriesColors: [
+                '#30cb23',
+                '#a2f2f2',
+                '#eeeadd',
+                '#f8001f',
+                '#fc6e1f',
+                'fuchsia',
+                'darkgrey'],
+            seriesDefaults: {
+                renderer: $.jqplot.PieRenderer,
+                trendline: {show: false},
+                rendererOptions: {padding: 8, showDataLabels: true}
+            },
+            legend: {
+                show: true,
+                placement: 'outside',
+                rendererOptions: {
+                    numberRows: 3
+                },
+                location: 's',
+                marginTop: '15px'
+            },
+            series: [
+                {label: '0 requirements tested successfully'},
+                {label: '1 requirements pending'},
+                {label: '0} requirements skipped'},
+                {label: '0} requirements with failures'},
+                {label: '0} requirements with errors'},
+                {label: '0} requirements compromised'},
+                {label: '0} requirements untested'},
+            ]
+        });
+        // Results table
+        $('#test-results-table').DataTable({
+            "order": [
+                [ 1, "asc" ]
+            ],
+            "pageLength": 100,
+            "lengthMenu": [ [50, 100, 200, -1] , [50, 100, 200, "All"] ]
+        });
+
+        // Results table
+        $('#req-results-table').DataTable({
+            "order": [
+                [ 1, "asc" ]
+            ],
+            "pageLength": 100,
+            "lengthMenu": [ [50, 100, 200, -1] , [50, 100, 200, "All"] ]
+        });
+
+        $('#examples-table').DataTable({
+            "order": [
+                [2, "asc"]
+            ],
+            "pageLength": 25
+        });
+        $("#requirements-tabs").tabs();
+        $("#test-tabs").tabs();
+    })
+    ;
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".read-more-link").click(function () {
+                $(this).nextAll("div.read-more-text").toggle();
+                var isrc = $(this).find("img").attr('src');
+                if (isrc == 'images/plus.png') {
+                    $(this).find("img").attr("src", function () {
+                        return "images/minus.png";
+                    });
+                } else {
+                    $(this).find("img").attr("src", function () {
+                        return "images/plus.png";
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+            <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
+
+
+
+                > <span class="truncate-40">Search For Definitions</span>
+
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li >
+            <a href="index.html"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li class="active">
+            <a href="#"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-05-2019 16:53</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+    <div id="beforetable"></div>
+    <div id="results-dashboard">
+        <div class="middlb">
+            <div class="table">
+                <div>
+                    <h2><i class="fa fa-book"></i> Feature:  Search For Definitions</h2>
+                        <div class="requirementNarrativeTitle">
+                        In order to understand a word that I don't know<br>As a user<br>I want to be able to look up the meaning of the word
+                        </div>
+
+                </div>
+
+                <div id="requirements-summary">
+                    <div id="coverage_pie_chart"
+                         style="margin-top:10px; margin-left:10px; width:250px; height:250px;"></div>
+                    <div id="coverage_summary">
+                        <div>
+                            <h4>Requirements Overview</h4>
+                            <table class="summary-table">
+                                <head>
+                                    <tr>
+                                        <th>Requirement Type</th>
+                                        <th>Total</th>
+                                        <th>Pass&nbsp;<i class="icon-check"></i></th>
+                                        <th>Fail&nbsp;<i class="icon-thumbs-down"></i></th>
+                                        <th>Pending&nbsp;<i class="icon-calendar"></i></th>
+                                        <th>Ignored&nbsp;<i class="icon-ban-circle"></i></th>
+                                    </tr>
+                                </head>
+                                <body>
+                                    <tr>
+                                        <td class="summary-leading-column"><a href="#requirements-tabs">Stories</a></td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+
+                                <tr>
+                                    <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
+                                    <td>9</td>
+                                    <td>6</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td></td>
+                                </tr>
+                                </body>
+                            </table>
+                        </div>
+
+
+
+
+
+<div>
+    <h4>Test Result Summary</h4>
+    <table class="summary-table">
+        <head>
+            <tr>
+                <th>Test Type</th>
+                <th>Total</th>
+                <th>Pass&nbsp;<i class="icon-check"/> </th>
+                <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
+                <th>Pending&nbsp;<i class="icon-calendar"/></th>
+                <th>Ignore/Skip&nbsp;<i class="icon-ban-circle"/></th>
+            </tr>
+        </head>
+        <body>
+        <tr>
+            <td class="summary-leading-column">Automated</td>
+            <td>9</td>
+            <td>6 (67%)</td>
+            <td>2 (22%)</td>
+            <td>1 (11%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Manual</td>
+            <td>0</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Total</td>
+            <td>9</td>
+            <td>6 (67%)</td>
+            <td>2 (22%)</td>
+            <td>1 (11%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Total Duration</td>
+                <td colspan="5">52 seconds</td>
+        </tr>
+        </body>
+    </table>
+</div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+
+                <div id="requirements-tabs">
+                        <ul>
+                                <li><a href="#tabs-1">
+                                Stories (1)
+                                </a></li>
+                        </ul>
+                        <div id="tabs-1" class="capabilities-table">
+                            <div id="tabs-1" class="capabilities-table">
+
+
+<div id="req_list_tests" class="table">
+    <div class="test-results">
+        <table id="req-results-table">
+            <thead>
+            <tr>
+                <th width="30" class="test-results-heading">&nbsp;</th>
+                <th width="65" class="test-results-heading">ID</th>
+                <th width="525" class="test-results-heading">Story</th>
+                <th class="test-results-heading" width="75px">Automated<br/>Tests</th>
+                    <th class="test-results-heading" width="75px">Manual<br/>Tests</th>
+
+                <th width="125px" class="test-results-heading">Test Results</th>
+
+            </tr>
+            <tbody>
+
+
+
+                <tr class="test-PENDING requirementRow">
+                    <td class="requirementRowCell">
+                        <span class="status_icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                        <span style="display:none">2</span>
+                    </td>
+                    <td class="cardNumber requirementRowCell"></td>
+
+                    <td class="PENDING-text requirementRowCell">
+                        <a href="javaScript:void(0)" class="read-more-link">
+                            <img src="images/plus.png" height="16"/></a>
+                        <span class="requirementName"><a
+                                href="7b98ab63a1f66587e18b1d9e9de56423ebc1935e2b0df5669f2965b1b61d2c47.html">Search by keyword story</a></span>
+
+                        <div class="requirementNarrative read-more-text"></div>
+                    </td>
+
+
+                    <td class="greentext highlighted-value requirementRowCell">5</td>
+<!--
+                    <td class="greentext requirementRowCell">4</td>
+                    <td class="bluetext requirementRowCell">1</td>
+                    <td class="redtext requirementRowCell">0</td>
+                    <td class="lightorangetext requirementRowCell">0</td>
+                    <td class="violettext requirementRowCell">0</td>
+-->
+                        <td class="greentext highlighted-value requirementRowCell">0</td>
+<!--
+                        <td class="greentext requirementRowCell">0</td>
+                        <td class="bluetext requirementRowCell">0</td>
+                        <td class="redtext requirementRowCell">0</td>
+                        <td class="lightorangetext requirementRowCell">0</td>
+                        -->
+
+                    <td width="125px" class="lightgreentext requirementRowCell">
+
+
+<table>
+    <tr>
+        <td width="40px">
+            <div class="small">80%</div>
+        </td>
+        <td width="125px">
+            <div class="percentagebar"
+                 title="  - Total tests: 5
+  - Passing tests: 4 (80%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 1 (20%)
+  - Ignored or skipped tests: 0 (0%)"
+                 style="width: 125px;">
+                <div class="pendingbar"
+                     title="  - Total tests: 5
+  - Passing tests: 4 (80%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 1 (20%)
+  - Ignored or skipped tests: 0 (0%)"
+                     style="width: 125px;">
+                    <div class="ignoredbar"
+                         style="width: 100px;"
+                         title="  - Total tests: 5
+  - Passing tests: 4 (80%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 1 (20%)
+  - Ignored or skipped tests: 0 (0%)">
+                        <div class="compromisedbar"
+                             style="width: 100px;"
+                             title="  - Total tests: 5
+  - Passing tests: 4 (80%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 1 (20%)
+  - Ignored or skipped tests: 0 (0%)">
+                            <div class="errorbar"
+                                 style="width: 100px;"
+                                 title="  - Total tests: 5
+  - Passing tests: 4 (80%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 1 (20%)
+  - Ignored or skipped tests: 0 (0%)">
+                                <div class="failingbar"
+                                     style="width: 100px;"
+                                     title="  - Total tests: 5
+  - Passing tests: 4 (80%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 1 (20%)
+  - Ignored or skipped tests: 0 (0%)">
+                                    <div class="passingbar"
+                                         style="width: 100px;"
+                                         title="  - Total tests: 5
+  - Passing tests: 4 (80%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 1 (20%)
+  - Ignored or skipped tests: 0 (0%)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+                            </div>
+                        </div>
+<table>
+    <tr>
+        <td>
+            <div><h3>Acceptance Criteria</h3></div>
+            <div id="test_list_tests" class="table">
+                <div class="test-results">
+                    <table id="test-results-table">
+                        <thead>
+                        <tr>
+                            <th width="50" class="test-results-heading">&nbsp;</th>
+                            <th width="%" class="test-results-heading">Tests</th>
+                            <th width="70" class="test-results-heading">Steps</th>
+
+                            <th width="100" class="test-results-heading">Started</th>
+                            <th width="100" class="test-results-heading">Took<br>(secs)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="f4533c3956c527626a0bc0c0787e1a9e6ff335874ff691a739cb9bd7cdf71ccd.html" class="ellipsis"
+                                           title="Searching by keyword banana should display the corresponding article ">
+                                            Searching by keyword banana should display the corresponding article
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">5</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2019-05-06 16:53:49">16:53:49</td>
+
+                                <td class="SUCCESS-text">9.25</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="95995f0f5b0b7a3d7dcf7066e3643339fd5e929e9768b36c0b570a7497169ac0.html" class="ellipsis"
+                                           title="Searching by ambiguious keyword should display the disambiguation page ">
+                                            Searching by ambiguious keyword should display the disambiguation page
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="PENDING-text">0</td>
+
+
+                                <td class="PENDING-text" data-sort="2019-05-06 16:53:58">16:53:58</td>
+
+                                <td class="PENDING-text">0</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="f1b78eba22081087b5226069f3ad490f40bd9faada95afedf1e50cb2320582d0.html" class="ellipsis"
+                                           title="Searching by keyword apple should display the corresponding article ">
+                                            Searching by keyword apple should display the corresponding article
+                                                <span class="related-issue-title">(#WIKI-1)</span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">5</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2019-05-06 16:53:58">16:53:58</td>
+
+                                <td class="SUCCESS-text">7.03</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="613bc1013fb76cb4fae67bbc68422fedc0f1b9be65e8ef2ebd21e71ccdcd82e0.html" class="ellipsis"
+                                           title="Searching heil ">
+                                            Searching heil
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">5</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2019-05-06 17:03:19">17:03:19</td>
+
+                                <td class="SUCCESS-text">9.37</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="94d559948465dab931eac33241575267a0f923408c5ec90fecb823a8c9ea228e.html" class="ellipsis"
+                                           title="Searching plank ">
+                                            Searching plank
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">5</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2019-05-06 17:04:25">17:04:25</td>
+
+                                <td class="SUCCESS-text">9.45</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="c65f141d5dc5a01f5a4d41c1b1a2663e734cf4f943548ee4ef55ca0687db9460.html" class="ellipsis"
+                                           title="Searching by keyword banana should display the corresponding article No such element exception: The follow...">
+                                            Searching by keyword banana should display the corresponding article
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">1</td>
+
+
+                                <td class="ERROR-text" data-sort="2019-05-12 13:05:03">13:05:03</td>
+
+                                <td class="ERROR-text">2.83</td>
+                            </tr>
+
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                    
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <div class="ellipsis">
+
+                                        <a href="698ac6aa6f9c64ca29ce60e3bd054b65e5c7b1f00db51f4ea375f83c50a0ae6d.html" class="ellipsis"
+                                           title="Searching by keyword apple should display the corresponding article Assertion error: The reason behing th...">
+                                            Searching by keyword apple should display the corresponding article
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="FAILURE-text">2</td>
+
+
+                                <td class="FAILURE-text" data-sort="2019-05-12 13:22:30">13:22:30</td>
+
+                                <td class="FAILURE-text">5.26</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="b3f043901decc3ec9d2fb1938e06d8acd88e7da915a7b21db4b34da9531ca4c1.html" class="ellipsis"
+                                           title="Add student incorect ">
+                                            Add student incorect
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">2</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2019-05-12 13:34:07">13:34:07</td>
+
+                                <td class="SUCCESS-text">5.45</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="0a243da203eb8d8a7e0bf5efb01dccc91934e2d1f49fe045e641c4ada08c77f8.html" class="ellipsis"
+                                           title="Add student correct ">
+                                            Add student correct
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">2</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2019-05-12 13:34:12">13:34:12</td>
+
+                                <td class="SUCCESS-text">3.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

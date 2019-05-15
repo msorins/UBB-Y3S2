@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="balarie.features.search.TestAddStudentWeb" skipped="0" tests="1" time="5.26" timestamp="2019-05-12T13:22:30.906837+03:00[Europe/Bucharest]"><testcase classname="balarie.features.search.TestAddStudentWeb" name="Searching by keyword apple should display the corresponding article"><failure message="The reason behing this is to test that the student was added" type="java.lang.AssertionError">The reason behing this is to test that the student was added</failure><system-err>The reason behing this is to test that the student was added
+balarie.steps.serenity.EndUserSteps.AddUser(EndUserSteps.java:23)
+balarie.features.search.TestAddStudentWeb.searching_by_keyword_apple_should_display_the_corresponding_article(TestAddStudentWeb.java:27)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</system-err></testcase></testsuite>

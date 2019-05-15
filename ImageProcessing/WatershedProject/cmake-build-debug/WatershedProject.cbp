@@ -5,7 +5,7 @@
 		<Option title="WatershedProject"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\..\anaconda3\;CMake Files\..\..\..\..\..\..\anaconda3\lib\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\;CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\5.12.0\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Network\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\5.12.0\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Network\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug"/>
@@ -50,9 +50,9 @@
 					<Add directory="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
-					<Add directory="/anaconda3/include/qt"/>
-					<Add directory="/anaconda3/include/qt/QtCore"/>
-					<Add directory="/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/so/Qt/5.12.0/clang_64/./mkspecs/macx-clang"/>
 					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework"/>
 					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers"/>
 					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework"/>
@@ -85,9 +85,9 @@
 					<Add directory="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
-					<Add directory="/anaconda3/include/qt"/>
-					<Add directory="/anaconda3/include/qt/QtCore"/>
-					<Add directory="/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/so/Qt/5.12.0/clang_64/./mkspecs/macx-clang"/>
 					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework"/>
 					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtWidgets.framework/Headers"/>
 					<Add directory="/Users/so/Qt/5.12.0/clang_64/lib/QtGui.framework"/>
@@ -196,20 +196,20 @@
 		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../Qt/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../Qt/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../Qt/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../Qt/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../Qt/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Core\"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/Y3S2/ImageProcessing/WatershedProject/../../../../Qt/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.0\clang_64\lib\cmake\Qt5Widgets\"/>
