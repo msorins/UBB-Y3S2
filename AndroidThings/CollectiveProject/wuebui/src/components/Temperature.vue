@@ -4,49 +4,64 @@ import { Line } from "vue-chartjs";
 export default {
   name: "Temperature",
   extends: Line,
+  props: {
+    temperature: Array,
+    labels: Array,
+  },
+  watch : {
+    temperature: function(oldData, newData) {
+        this.doRenderChart()
+    },
+    labels: function(oldData, newData) {
+        this.doRenderChart()
+    },
+  },
   data: function() {
     return {
-      temperature: [],
-      labels: [],
       MAX_DATA: 60
     };
   },
   mounted() {
     // Make get requests
-    this.$nextTick(function() {
-      window.setInterval(() => {
-        this.getData();
-      }, 1000);
-    });
+    // this.$nextTick(function() {
+    //   window.setInterval(() => {
+    //     this.getData();
+    //   }, 1000);
+    // });
   },
   methods: {
     getData() {
-      this.axios.get("http://192.168.43.130:5000/temperature").then(response => {
-        this.$set(this.$data.temperature, "b", 2);
+      // this.axios.get("http://192.168.43.130:5000/temperature").then(response => {
+      //   this.$set(this.$data.humidity, "b", 2);
+      //   console.log(response.data);
 
-        this.$data.temperature.push(response.data);
-        if (this.$data.labels.length == 0) {
-          this.$data.labels.push(0);
-        } else {
-          this.$data.labels.push(
-            this.$data.labels[this.$data.labels.length - 1] + 1
-          );
-        }
+      //   this.$data.humidity.push(response.data);
+      //   if (this.$data.labels.length == 0) {
+      //     this.$data.labels.push(0);
+      //   } else {
+      //     this.$data.labels.push(
+      //       this.$data.labels[this.$data.labels.length - 1] + 1
+      //     );
+      //   }
 
-        if(this.$data.temperature.length > this.$data.MAX_DATA) {
-          this.$data.temperature.shift()
-          this.$data.labels.shift()
-        }
+      //   if(this.$data.humidity.length > this.$data.MAX_DATA) {
+      //     this.$data.humidity.shift()
+      //     this.$data.labels.shift()
+      //   }
 
-        // Render the cart
-        this.renderChart(
+      //   // Render the cart
+      //   this.doRenderChart()
+      // });
+    },
+    doRenderChart() {
+      this.renderChart(
           {
-            labels: this.$data.labels,
+            labels: this.$props.labels,
             datasets: [
               {
                 label: "Data One",
-                backgroundColor: "#FF9800",
-                data: this.$data.temperature
+                backgroundColor: "#f87979",
+                data: this.$props.temperature
               }
             ]
           },
@@ -68,7 +83,6 @@ export default {
             }
           }
         );
-      });
     }
   }
 };

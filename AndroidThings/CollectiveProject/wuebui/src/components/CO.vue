@@ -2,52 +2,66 @@
 import { Line } from "vue-chartjs";
 
 export default {
-  name: "Temperature",
+  name: "CO",
   extends: Line,
+  props: {
+    CO: Array,
+    labels: Array,
+  },
+  watch : {
+    CO: function(oldData, newData) {
+        this.doRenderChart()
+    },
+    labels: function(oldData, newData) {
+        this.doRenderChart()
+    },
+  },
   data: function() {
     return {
-      CO: [],
-      labels: [],
       MAX_DATA: 60
     };
   },
   mounted() {
     // Make get requests
-    this.$nextTick(function() {
-      window.setInterval(() => {
-        this.getData();
-      }, 1000);
-    });
+    // this.$nextTick(function() {
+    //   window.setInterval(() => {
+    //     this.getData();
+    //   }, 1000);
+    // });
   },
   methods: {
     getData() {
-      this.axios.get("http://192.168.43.130:5000/co").then(response => {
-        this.$set(this.$data.CO, "b", 2);
-        console.log(response.data);
+      // this.axios.get("http://192.168.43.130:5000/co").then(response => {
+      //   this.$set(this.$data.humidity, "b", 2);
+      //   console.log(response.data);
 
-        this.$data.CO.push(response.data);
-        if (this.$data.labels.length == 0) {
-          this.$data.labels.push(0);
-        } else {
-          this.$data.labels.push(
-            this.$data.labels[this.$data.labels.length - 1] + 1
-          );
-        }
+      //   this.$data.humidity.push(response.data);
+      //   if (this.$data.labels.length == 0) {
+      //     this.$data.labels.push(0);
+      //   } else {
+      //     this.$data.labels.push(
+      //       this.$data.labels[this.$data.labels.length - 1] + 1
+      //     );
+      //   }
 
-        if(this.$data.CO.length > this.$data.MAX_DATA) {
-          this.$data.CO.shift()
-          this.$data.labels.shift()
-        }
+      //   if(this.$data.humidity.length > this.$data.MAX_DATA) {
+      //     this.$data.humidity.shift()
+      //     this.$data.labels.shift()
+      //   }
 
-        // Render the cart
-        this.renderChart(
+      //   // Render the cart
+      //   this.doRenderChart()
+      // });
+    },
+    doRenderChart() {
+      this.renderChart(
           {
-            labels: this.$data.labels,
+            labels: this.$props.labels,
             datasets: [
               {
                 label: "Data One",
-                backgroundColor: "#009688",
-                data: this.$data.CO
+                backgroundColor: "#673AB7",
+                data: this.$props.CO
               }
             ]
           },
@@ -69,7 +83,6 @@ export default {
             }
           }
         );
-      });
     }
   }
 };

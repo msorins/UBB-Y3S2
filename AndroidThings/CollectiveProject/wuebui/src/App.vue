@@ -1,18 +1,17 @@
 <template>
   <div id="app">
     <h3> {{value_2[0] | moment("dddd, MMMM Do YYYY") }} -> {{value_2[1] | moment("dddd, MMMM Do YYYY") }}  </h3>
-    <vue-slider v-model="value_2" :min="fromTimestamp" :max="untilTimestamp" v-on:change="sliderChanged"></vue-slider>
-    {{ getReading(  readingsOptions.temperature) }}
+    <vue-slider style="width:85%; margin:auto;" v-model="value_2" :min="fromTimestamp" :max="untilTimestamp" v-on:change="sliderChanged"></vue-slider>
+
     <h4>Humidity</h4>
-    <Humidity/>
+    <Humidity v-bind:labels="getReading(readingsOptions.humidity)[0]" v-bind:humidity="getReading(readingsOptions.humidity)[1]"/>
 
     <h4>Temperature</h4>
-    <Temperature/>
+    <Temperature  v-bind:labels="getReading(readingsOptions.temperature)[0]" v-bind:temperature="getReading(readingsOptions.temperature)[1]"/>
 
     <h4>CO</h4>
-    <CO/>
-
-    {{ readings }}
+    <CO v-bind:labels="getReading(readingsOptions.co)[0]" v-bind:CO="getReading(readingsOptions.co)[1]"/>
+    
   </div>
 </template>
 
