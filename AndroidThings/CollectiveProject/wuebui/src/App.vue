@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <h3> {{value_2[0] | moment("dddd, MMMM Do YYYY") }} -> {{value_2[1] | moment("dddd, MMMM Do YYYY") }}  </h3>
+    <vue-slider v-model="value_2" :min="fromTimestamp" :max="untilTimestamp" v-on:change="sliderChanged"></vue-slider>
+    {{ getReading(  readingsOptions.temperature) }}
     <h4>Humidity</h4>
     <Humidity/>
 
@@ -8,6 +11,7 @@
 
     <h4>CO</h4>
     <CO/>
+
     {{ readings }}
   </div>
 </template>
@@ -17,6 +21,8 @@ import Humidity from "./components/Humidity.vue";
 import Temperature from "./components/Temperature.vue";
 import CO from "./components/CO.vue";
 import Firebase from "firebase";
+import VueSlider from 'vue-slider-component'
+import 'vue-slider-component/theme/antd.css'
 
 var firebaseApp = Firebase.initializeApp({
   apiKey: "AIzaSyCq0F6t5FTJm5Z1ObRzJOqgXk_N2uqHlEg",
@@ -30,22 +36,56 @@ export default {
   components: {
     Humidity,
     Temperature,
-    CO
+    CO,
+    VueSlider
   },
   data() {
     return {
-      readings: []
-    };
-  },
-  firestore: function() {
-    return {
-      persons: firestore.collection("persons")
+      readings: [],
+      lowerBoundVal: 0,
+      upperBoundVal: 200,
+      value_2: [0, 50],
+      fromTimestamp: 0,
+      untilTimestamp: 86400000,
+      readingsOptions: {'temperature': 1, 'humidity': 0, 'co': 2}
     };
   },
   mounted() {
+    this.$data.fromTimestamp  =  1555926874000
+    this.$data.untilTimestamp = new Date().getTime()
+
     this.$binding("readings", firestore.collection("readings")).then(readings => {
-      console.log(readings); 
+      // console.log(readings); 
     });
+  },
+  methods: {
+    sliderChanged: function(event) {
+      // console.log(event);
+    },
+    getReading: function(typeOfReading) {
+      var labels = []
+      var readings = []
+
+      for(var reading of this.$data.readings) {
+          if(reading.timestamp > this.$data.value_2[0] && reading.timestamp < this.$data.value_2[1]) {
+            labels.push( labels.length + 1 );
+            
+            if(typeOfReading == this.$data.readingsOptions.temperature) {
+               readings.push( reading.temperature ) ;
+            }
+
+            if(typeOfReading == this.$data.readingsOptions.humidity) {
+               readings.push( reading.humidity ) ;
+            }
+
+            if(typeOfReading == this.$data.readingsOptions.co) {
+               readings.push( reading.co ) ;
+            }
+           
+          }
+      }
+      return [labels, readings]
+    },
   }
 };
 </script>

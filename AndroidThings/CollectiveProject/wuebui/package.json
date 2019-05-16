@@ -16,6 +16,8 @@
     "vue-axios": "^2.1.4",
     "vue-chartjs": "^3.4.2",
     "vue-firestore": "^0.3.21",
+    "vue-moment": "^4.0.0",
+    "vue-slider-component": "^3.0.31",
     "vuefire": "^2.0.0-alpha.24"
   },
   "devDependencies": {

@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b045b2e5-c7bf-4fb1-87a4-3becb4bbb772" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GO_API/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GO_API/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/balarie/features/search/TestDoNotAddStudentWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/search/notest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/Android_Things_App/app/src/main/java/com/mircea/sorin/sebastian/officeairquality/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/Android_Things_App/app/src/main/java/com/mircea/sorin/sebastian/officeairquality/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/UI/mainwindow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/WatershedProject_autogen/mocs_compilation.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenOldSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/CMakeFiles/WatershedProject_autogen.dir/AutogenOldSettings.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/KRKR4BN5RM/moc_mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/WatershedProject_autogen/KRKR4BN5RM/moc_mainwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/out.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../ImageProcessing/WatershedProject/cmake-build-debug/out.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/wuebui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/wuebui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/wuebui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/wuebui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/wuebui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/wuebui/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/wuebui/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidThings/CollectiveProject/wuebui/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LabAssiAsseProjectV02" beforeDir="false" afterPath="$PROJECT_DIR$/../LabAssiAsseProjectV02" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabTestingJenkins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTestingJenkins/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabTestingJenkins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTestingJenkins/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../this" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,11 +20,11 @@
     <session id="1907541711">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -93,24 +66,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="32" column="83" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="83" />
-              <folding>
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
-                <element signature="e#1388#1389#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-                <element signature="e#1398#1399#0" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
-                <element signature="e#1533#1534#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/search/notest.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <caret line="2" column="60" lean-forward="true" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -137,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/search/test.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+              <caret line="2" column="57" lean-forward="true" selection-end-line="2" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -151,16 +106,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/balarie/steps/serenity/EndUserSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="22" column="82" lean-forward="true" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+              <caret line="22" column="82" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/balarie/pages/DictionaryPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="525">
+              <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -234,7 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,7 +271,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,6 +430,7 @@
       <workItem from="1557150196355" duration="2101000" />
       <workItem from="1557651443204" duration="3185000" />
       <workItem from="1557753035075" duration="2158000" />
+      <workItem from="1557933388377" duration="604000" />
     </task>
     <servers />
   </component>
@@ -511,13 +467,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7444000" />
+    <option name="totallyTimeSpent" value="8048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24847375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -571,15 +527,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/balarie/steps/serenity/EndUserSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/balarie/features/search/TestAddStudentWeb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="82" lean-forward="true" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+        <state relative-caret-position="330">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="83" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/balarie/features/search/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/balarie/features/search/TestDoNotAddStudentWeb.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,49 +541,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search/notest.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/balarie/features/search/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/balarie/steps/serenity/EndUserSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="210">
+          <caret line="22" column="82" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/balarie/pages/DictionaryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/search/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+          <caret line="2" column="57" lean-forward="true" selection-end-line="2" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/balarie/features/search/TestAddStudentWeb.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search/notest.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="83" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="83" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/balarie/pages/DictionaryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="30">
+          <caret line="2" column="60" lean-forward="true" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
         </state>
       </provider>
     </entry>
