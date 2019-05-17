@@ -54,7 +54,7 @@ class MainActivity : Activity() {
     private var co: Float = 0.0f
 
     lateinit var db: FirebaseFirestore
-    var EVERY_SECOND = 5000L
+    var EVERY_SECOND = 30000L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
